@@ -5,3 +5,29 @@
 .utility-links {
     display: none;
 } */
+
+.pane-title {
+    display: none;
+}
+
+#breadcrumbWrapper {
+    display: none;
+}
+
+#stickySearch {
+    display: none;
+}
+
+#header {
+    display: none;
+}
+
+#nav-bar {
+    border: #033c5a solid 1px;
+}
+
+#nav-bar-wrapper {
+    background-color: white;
+    margin: 0px;
+    padding: 0;
+}
