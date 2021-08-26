@@ -1,10 +1,7 @@
-/* body {
-    background-color: blue;
+body {
+    color: black;
 }
 
-.utility-links {
-    display: none;
-} */
 
 .pane-title {
     display: none;
@@ -30,6 +27,10 @@
     background-color: white;
     margin: 0px;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 #stickyLogo {
