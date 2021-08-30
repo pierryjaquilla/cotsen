@@ -5,3 +5,8 @@
 .container span{
     color: white;
 }
+
+img {
+    height: 100vh !important;
+    object-fit: cover;
+}
