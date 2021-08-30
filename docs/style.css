@@ -22,6 +22,10 @@ body {
 
 /* //////////////////// MENU TITLE ////////////////////// */
 
+.nav-bar:first-child {
+    display: none;
+}
+
 #nav-bar {
     border: #033c5a solid 1px;
     position: fixed !important;
