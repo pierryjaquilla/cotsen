@@ -69,8 +69,9 @@ nav#main-nav {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
-    margin: 0px;
-    padding: 10px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 10px;
 }
 
 #main-nav .row {
@@ -104,6 +105,7 @@ nav#main-nav {
 
 .igLogo {
     float: right;
+    transform: translate(0, -48%);
 }
 
 .titleCotsonTextileStudyCenter {
