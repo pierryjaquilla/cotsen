@@ -72,6 +72,7 @@ nav#main-nav {
     margin-top: 0px;
     padding: 0px;
     padding-top: 10px;
+    max-width: 100000000px;
 }
 
 #main-nav .row {
@@ -113,6 +114,10 @@ nav#main-nav {
 
 .titleCotsonTextileStudyCenter {
     text-align: center;
+}
+
+#navigation-mobile {
+    display: none;
 }
 
 /* ///////////////////////////////////// */
