@@ -112,14 +112,11 @@ nav#main-nav {
     height: 100%;
 }
 
-.container * img {
-    height: 30px !important; 
-    width: 30px !important;
-}
-
 .igLogo {
     float: right;
     transform: translate(0, -48%);
+    height: 30px !important; 
+    width: 30px !important;
 }
 
 .titleCotsonTextileStudyCenter {
