@@ -43,6 +43,11 @@ div#stickySearch {
     height: 50px;
 }
 
+.mainWrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 #nav-bar-wrapper {
     background-color: white;
     margin: 0px;
@@ -73,6 +78,11 @@ nav#main-nav {
     padding: 0px;
     padding-top: 10px;
     max-width: 100000000px;
+}
+
+.mainWrapper .row {
+    margin-left: -32px; 
+    margin-right: -32px;        
 }
 
 #main-nav .row {
@@ -129,6 +139,12 @@ nav#main-nav {
 .col-md-6 {
     width: 50%;
     float: left;
+}
+
+/* ////////////////////// footer ////////////////// */
+
+#local-footer {
+    display: none;
 }
 
 /* ///////////////////////////////////// */
