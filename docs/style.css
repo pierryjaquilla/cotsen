@@ -117,7 +117,16 @@ nav#main-nav {
 }
 
 #navigation-mobile {
-    display: none;
+    display: none
+    ;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.col-md-6 {
+    width: 50%;
 }
 
 /* ///////////////////////////////////// */
