@@ -6,7 +6,7 @@
     color: white;
 }
 
-img {
+.homepage img {
     height: 100vh !important;
     object-fit: cover;
 }
