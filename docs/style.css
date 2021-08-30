@@ -76,6 +76,8 @@ nav#main-nav {
 
 #main-nav .row {
     height: 100%;
+    position: relative;
+    left: 33px;
 }
 
 .row .col-md-4 {
