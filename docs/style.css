@@ -22,6 +22,8 @@ body {
 
 #nav-bar {
     border: #033c5a solid 1px;
+    position: fixed !important;
+    
 }
 
 #nav-bar-wrapper {
