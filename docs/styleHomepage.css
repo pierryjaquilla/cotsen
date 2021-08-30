@@ -1,4 +1,7 @@
 .container {
-    color: white;
     background-color: #033c5a;
+}
+
+.container span{
+    color: white;
 }
