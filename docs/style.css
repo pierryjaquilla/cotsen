@@ -33,7 +33,7 @@ div#stickySearch {
 
 /* //////////////////// MENU TITLE ////////////////////// */
 
-.nav-bar:first-child {
+.nav-bar#sticky {
     display: none;
 }
 
