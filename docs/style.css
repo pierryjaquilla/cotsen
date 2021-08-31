@@ -112,7 +112,7 @@ nav#main-nav {
     height: 100%;
 }
 
-.container * img {
+.container * img.igLogo {
     float: right;
     transform: translate(0, -48%);
     height: 30px !important; 
