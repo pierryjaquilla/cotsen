@@ -69,7 +69,7 @@ nav#main-nav {
     height: 100%;
 }
 
-.container {
+.container.mainMenu {
     height: 100%;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -108,7 +108,7 @@ nav#main-nav {
     height: 100%;
 }
 
-.container * img.igLogo {
+.container.mainMenu * img.igLogo {
     float: right;
     transform: translate(0, -48%);
     height: 30px !important; 
@@ -144,8 +144,12 @@ nav#main-nav {
 
 a {
     text-decoration: none;
+    color: black;
+    font-family: "AvenirLTStd-Roman",Helvetica,Arial,sans-serif;
 }
 
 #stickyLogo {
     display: none;
 }
+
+/* //////////////////////////////////// */
