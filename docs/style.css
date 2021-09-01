@@ -169,3 +169,16 @@ a:hover {
     text-align: center;
     width: 80%;
 }
+
+h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+hr {
+    border-bottom: solid 1px;
+}
+
+.mediaAndDocu article {
+    border-bottom: black solid 1px;
+}
