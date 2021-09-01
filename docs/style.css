@@ -143,13 +143,13 @@ nav#main-nav {
 /* ///////////////////////////////////// */
 
 * {
-    color: black;
+    color: black !important;
 }
 
 a {
     text-decoration: none;
     color: black;
-    font-family: "AvenirLTStd-Roman",Helvetica,Arial,sans-serif !important;
+    font-family: 'Avenir Next Cyr W00 Light',Helvetica,Arial,sans-serif !important;
 }
 
 a:hover {
