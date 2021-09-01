@@ -152,4 +152,8 @@ a {
     display: none;
 }
 
-/* //////////////////////////////////// */
+/* ///////////////// MEDIA AND DOCU /////////////////// */
+
+.container.mediaAndDocu {
+    padding-top: 20px;
+}
