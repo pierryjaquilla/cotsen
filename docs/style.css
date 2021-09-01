@@ -37,6 +37,11 @@ div#stickySearch {
     display: none;
 }
 
+.fadeInDown {
+    -webkit-animation-name: none;
+    animation-name: none;
+}
+
 #nav-bar {
     border: black solid 1px;
     position: fixed !important;
