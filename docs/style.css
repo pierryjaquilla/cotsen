@@ -142,6 +142,10 @@ nav#main-nav {
 
 /* ///////////////////////////////////// */
 
+* {
+    color: black;
+}
+
 a {
     text-decoration: none;
     color: black;
