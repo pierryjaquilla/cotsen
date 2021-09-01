@@ -155,5 +155,7 @@ a {
 /* ///////////////// MEDIA AND DOCU /////////////////// */
 
 .container.mediaAndDocu {
-    padding-top: 20px;
+    padding-top: 45px;
+    text-align: center;
+    width: 80%;
 }
