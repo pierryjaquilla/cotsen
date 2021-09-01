@@ -38,7 +38,7 @@ div#stickySearch {
 }
 
 #nav-bar {
-    border: #00537F solid 1px;
+    border: black solid 1px;
     position: fixed !important;
     height: 50px;
 }
@@ -78,6 +78,7 @@ nav#main-nav {
     padding: 0px;
     padding-top: 10px;
     max-width: 100000000px;
+    color: black;
 }
 
 .mainWrapper .row {
@@ -120,8 +121,7 @@ nav#main-nav {
 }
 
 #navigation-mobile {
-    display: none
-    ;
+    display: none;
 }
 
 .col-md-3 {
@@ -145,7 +145,12 @@ nav#main-nav {
 a {
     text-decoration: none;
     color: black;
-    font-family: "AvenirLTStd-Roman",Helvetica,Arial,sans-serif;
+    font-family: "AvenirLTStd-Roman",Helvetica,Arial,sans-serif !important;
+}
+
+a:hover {
+    text-decoration: none;
+    color: grey;
 }
 
 #stickyLogo {
