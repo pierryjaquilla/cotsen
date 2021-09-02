@@ -2,10 +2,6 @@
     background-color: #00537F;
 }
 
-.container span{
-    color: white;
-}
-
 .homepage img {
     height: 100vh !important;
     object-fit: cover;
@@ -17,8 +13,9 @@
 
 } */
 
-.container.mainMenu {
-    color: white;
+.container.mainMenu span {
+    color: white !important;
+    
 }
 
 .container.mainMenu * img.igLogo {
