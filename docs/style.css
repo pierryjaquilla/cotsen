@@ -84,6 +84,7 @@ nav#main-nav {
     padding-top: 10px;
     max-width: 100000000px;
     color: black;
+    z-index: 1000;
 }
 
 .mainWrapper .row {
@@ -145,6 +146,7 @@ nav#main-nav {
     position: relative;
     top: 0px;
     transition: top 2s ease-in-out;
+    z-index: 10;
 }
 
 .hideMenu {
