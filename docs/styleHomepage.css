@@ -20,3 +20,7 @@
 .container.mainMenu {
     color: white;
 }
+
+.container.mainMenu * img.igLogo {
+    filter: brightness(100%) !important;
+}
