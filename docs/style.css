@@ -147,6 +147,10 @@ nav#main-nav {
     transition: top 2s ease-in-out;
 }
 
+.hideMenu {
+    top: -1000px;
+}
+
 /* ////////////////////// footer ////////////////// */
 
 #local-footer {
