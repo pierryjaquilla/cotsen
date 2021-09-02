@@ -8,6 +8,6 @@ function menuOpenCloses() {
     console.log(menuButton);
     console.log(full);
     menuButton.addEventListener("mousedown", function() {
-        full.classList.remove("hideMenu");
+        full[0].classList.remove("hideMenu");
     });
 }

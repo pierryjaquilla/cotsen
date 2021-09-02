@@ -163,7 +163,7 @@ nav#main-nav {
     color: black !important;
 }
 
-a {
+a, #menuButton {
     text-decoration: none;
     color: black;
     font-family: 'Avenir Next Cyr W00 Light',Helvetica,Arial,sans-serif !important;
