@@ -180,7 +180,7 @@ a:hover {
     display: none;
 }
 
-/* ///////////////// MEDIA AND DOCU /////////////////// */
+/* ///////////////// MEDIA AND DOCU / TEMPLATE 2 /////////////////// */
 
 .container.mediaAndDocu {
     padding-top: 45px;
@@ -199,4 +199,18 @@ hr {
 
 .mediaVideo article {
     border-bottom: black solid 1px;
+}
+
+/* ////////////////////////////// TEMPLATE 1 //////////////////////////////////////// */
+
+.template-1 .container.five-across {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    height: 50px;
+}
+
+.template-1 .container {
+    position: relative;
+    top: 50px;
 }
