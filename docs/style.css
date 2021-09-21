@@ -223,7 +223,7 @@ hr {
     overflow: scroll;
 }
 
-.template-1 .col-img img {
+.template-1 .img-responsive {
     height: 100% !important;
     object-fit: cover;
 }
