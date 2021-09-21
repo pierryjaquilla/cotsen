@@ -202,6 +202,11 @@ hr {
 }
 
 /* ////////////////////////////// TEMPLATE 1 //////////////////////////////////////// */
+.template-1 .container {
+    position: relative;
+    top: 50px;
+    height: calc(100vh - 150px);
+}
 
 .template-1 .container.five-across {
     position: relative;
@@ -210,7 +215,15 @@ hr {
     height: 50px;
 }
 
-.template-1 .container {
-    position: relative;
-    top: 50px;
+.template-1 .row, .template-1 .pos-one, .template-1 .pos-two, .template-1 .media, .template-1 .col-img {
+    height: 100%;
+}
+
+.template-1 .pos-one {
+    overflow: scroll;
+}
+
+.template-1 .col-img img {
+    height: 100% !important;
+    object-fit: cover;
 }
