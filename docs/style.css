@@ -143,14 +143,14 @@ nav#main-nav {
 
 .fullMenu {
     background-color: #EFF9FF;
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top: 50px;
     transition: top 2s ease-in-out;
     z-index: 10;
 }
 
 .hideMenu {
-    top: -1000px;
+    top: 110vh;
 }
 
 /* ////////////////////// footer ////////////////// */
