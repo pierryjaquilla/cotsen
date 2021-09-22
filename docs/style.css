@@ -202,7 +202,7 @@ hr {
     border-bottom: black solid 1px;
 }
 
-/* ////////////////////////////// TEMPLATE 1 //////////////////////////////////////// */
+/* ////////////////////////////// TEMPLATE 1 & landing //////////////////////////////////////// */
 .template-1, .template-1-landing {
     width: 100vw;
     height: 100vh;
@@ -271,7 +271,16 @@ hr {
 .fullwidth .col-sm-6 {
     width: 50%;
     float: left;
+}
 
+.fullwidth .col-xs-12 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.fullwidth .col-xs-12, .mainMenu .col-xs-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 @media (max-width: 800px) {
@@ -283,4 +292,10 @@ hr {
         width: 100%;
         float: initial;
     }
+}
+
+/* //////////////////////////////////// TAMPLATE 1 //////////////////////////////////////////////// */
+
+.template-1 h3 span {
+    font-size: 3em;
 }
