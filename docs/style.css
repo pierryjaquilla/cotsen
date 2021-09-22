@@ -235,6 +235,10 @@ hr {
     height: 100%;
 }
 
+.template-1 .pos-two {
+    padding: 0px;
+}
+
 .template-1 .row {
     margin-left: 0px;
     margin-right: 0px;
