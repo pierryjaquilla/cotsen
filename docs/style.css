@@ -88,8 +88,8 @@ nav#main-nav {
 }
 
 .mainMenu .mainWrapper .row {
-    margin-left: -32px; 
-    margin-right: -32px;        
+    margin-left: 0px; 
+    margin-right: 0px;        
 }
 
 .mainMenu #main-nav .row {
