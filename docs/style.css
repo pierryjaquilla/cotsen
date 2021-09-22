@@ -231,7 +231,7 @@ hr {
     height: 50px;
 }
 
-.template-1 .article, .template-1 .row, .template-1 .pos-one, .template-1 .pos-two, .template-1 .media, .template-1 .col-img {
+.template-1 article, .template-1 .row, .template-1 .pos-one, .template-1 .pos-two, .template-1 .media, .template-1 .col-img {
     height: 100%;
 }
 
