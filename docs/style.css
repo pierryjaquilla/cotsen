@@ -203,7 +203,7 @@ hr {
 }
 
 /* ////////////////////////////// TEMPLATE 1 //////////////////////////////////////// */
-.template-1 {
+.template-1, .template-1-landing {
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -211,7 +211,8 @@ hr {
     bottom: 0px;
 }
 
-.template-1 .container {
+.template-1 .container, .template-1-landing .container
+ {
     position: relative;
     top: 50px;
     height: calc(100vh - 150px);
@@ -224,7 +225,7 @@ hr {
     padding: 0px;
 }
 
-.template-1 .container.five-across {
+.template-1 .container.five-across, .template-1-landing .container.five-across {
     position: relative;
     top: 50px;
     text-align: center;
@@ -235,20 +236,24 @@ hr {
     height: 100%;
 }
 
-.template-1 .fullwidth .pos-two {
+.template-1-landing .fullwidth article, .template-1-landing .fullwidth .row, .template-1-landing .fullwidth .pos-one, .template-1-landing .fullwidth .pos-two, .template-1-landing .fullwidth .media, .template-1-landing .fullwidth .col-img {
+    height: 100%;
+}
+
+.template-1 .fullwidth .pos-two, .template-1-landing .fullwidth .pos-two {
     padding: 0px;
 }
 
-.template-1 .fullwidth .row {
+.template-1 .fullwidth .row, .template-1-landing .fullwidth .row {
     margin-left: 0px;
     margin-right: 0px;
 }
 
-.template-1 .fullwidth .row .pos-one {
+.template-1 .fullwidth .pos-one, .template-1-landing .fullwidth .pos-one {
     overflow: scroll;
 }
 
-.template-1 .fullwidth .img-responsive {
+.template-1 .fullwidth .img-responsive, .template-1-landing .fullwidth .img-responsive {
     height: 100% !important;
     object-fit: cover;
 }
@@ -270,7 +275,7 @@ hr {
 }
 
 @media (max-width: 800px) {
-    .template-1 .fullwidth .pos-one {
+    .template-1 .fullwidth .pos-one, .template-1-landing .fullwidth .pos-one {
         overflow: hidden;
     }
 
