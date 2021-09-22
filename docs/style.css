@@ -216,6 +216,13 @@ hr {
     height: calc(100vh - 150px);
 }
 
+.fullwidth {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+
 .template-1 .container.five-across {
     position: relative;
     top: 50px;
@@ -223,7 +230,7 @@ hr {
     height: 50px;
 }
 
-.template-1 .row, .template-1 .pos-one, .template-1 .pos-two, .template-1 .media, .template-1 .col-img {
+.template-1 .article, .template-1 .row, .template-1 .pos-one, .template-1 .pos-two, .template-1 .media, .template-1 .col-img {
     height: 100%;
 }
 
