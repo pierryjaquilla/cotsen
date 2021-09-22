@@ -262,3 +262,16 @@ hr {
     height: 100% !important;
     object-fit: cover;
 }
+
+.col-sm-6 {
+    width: 50%;
+    float: left;
+
+}
+
+@media (max-width: 800px) {
+    .col-sm-6 {
+        width: 100%;
+        float: initial;
+    }
+}
