@@ -244,7 +244,7 @@ hr {
     margin-right: 0px;
 }
 
-.template-1 .pos-one {
+.template-1 .row .pos-one {
     overflow: scroll;
 }
 
@@ -270,6 +270,10 @@ hr {
 }
 
 @media (max-width: 800px) {
+    .template-1 .row .pos-one {
+        overflow: hidden;
+    }
+
     .col-sm-6 {
         width: 100%;
         float: initial;
