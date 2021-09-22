@@ -230,8 +230,10 @@ hr {
 
 .container p.col-img img {
     height: 100% !important;
+    object-fit: cover;
 }
 
 .img-template-1 {
     height: 100% !important;
+    object-fit: cover;
 }
