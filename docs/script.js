@@ -11,8 +11,8 @@ function changeColorBackgroundMedia() {
 function menuOpenCloses() {
     var menuButton = document.getElementById("menuButton");
     var full = document.getElementsByClassName("fullMenu");
-    console.log(menuButton);
-    console.log(full);
+    // console.log(menuButton);
+    // console.log(full);
     menuButton.addEventListener("mousedown", function() {
         if (full[0].classList.contains('hideMenu')) {
             full[0].classList.remove("hideMenu");
