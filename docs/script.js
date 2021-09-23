@@ -6,6 +6,7 @@ window.onload = function () {
 function changeColorBackgroundMedia() {
     var color = jQuery(".colorForBackground").html();
     color = color.split('#')[1];
+    console.log("lol");
     console.log(color);
 }
 
