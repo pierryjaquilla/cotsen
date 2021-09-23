@@ -232,7 +232,7 @@ hr {
     height: 50px;
 }
 
-.template-1 .fullwidth article, .template-1 .fullwidth .row, .template-1 .fullwidth .pos-one, .template-1 .fullwidth .pos-two, .template-1 .fullwidth .media, .template-1 .fullwidth .col-img {
+.template-1 .fullwidth article, .template-1 .fullwidth .row, .template-1 .fullwidth .pos-one, .template-1 .fullwidth .pos-two, .template-1 .fullwidth .col-img {
     height: 100%;
 }
 
@@ -294,8 +294,12 @@ hr {
     }
 }
 
-/* //////////////////////////////////// TAMPLATE 1 //////////////////////////////////////////////// */
+/* //////////////////////////////////// TEMPLATE 1 //////////////////////////////////////////////// */
 
 .template-1 h3 span {
     font-size: 3em;
+}
+
+.template-1 .fullwidth article {
+    background: aliceblue;
 }
