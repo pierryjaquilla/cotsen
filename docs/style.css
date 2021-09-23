@@ -28,6 +28,7 @@ body {
     background-color: transparent;
     display: block;
 }
+
 div#stickySearch {
     display: none;
 }
@@ -77,9 +78,12 @@ nav#main-nav {
 
 .container.mainMenu {
     height: 100%;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
     margin-top: 0px;
     padding: 0px;
     padding-top: 10px;
@@ -89,8 +93,8 @@ nav#main-nav {
 }
 
 .mainMenu .row {
-    margin-left: 0px; 
-    margin-right: 0px;        
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .mainMenu #main-nav .row {
@@ -119,7 +123,7 @@ nav#main-nav {
 .container.mainMenu * img.igLogo {
     float: right;
     transform: translate(0, -48%);
-    height: 30px !important; 
+    height: 30px !important;
     width: 30px !important;
     filter: brightness(0%);
 }
@@ -166,10 +170,11 @@ nav#main-nav {
     color: black !important;
 }
 
-a, #menuButton {
+a,
+#menuButton {
     text-decoration: none;
     color: black;
-    font-family: 'Avenir Next Cyr W00 Light',Helvetica,Arial,sans-serif !important;
+    font-family: 'Avenir Next Cyr W00 Light', Helvetica, Arial, sans-serif !important;
 }
 
 a:hover {
@@ -203,7 +208,8 @@ hr {
 }
 
 /* ////////////////////////////// TEMPLATE 1 & landing //////////////////////////////////////// */
-.template-1, .template-1-landing {
+.template-1,
+.template-1-landing {
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -211,11 +217,11 @@ hr {
     bottom: 0px;
 }
 
-.template-1 .container, .template-1-landing .container
- {
+.template-1 .container,
+.template-1-landing .container {
     position: relative;
     top: 50px;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 145px);
 }
 
 .fullwidth {
@@ -225,35 +231,49 @@ hr {
     padding: 0px;
 }
 
-.template-1 .container.five-across, .template-1-landing .container.five-across {
+.template-1 .container.five-across,
+.template-1-landing .container.five-across {
     position: relative;
     top: 50px;
     text-align: center;
     height: 50px;
 }
 
-.template-1 .fullwidth article, .template-1 .fullwidth .row, .template-1 .fullwidth .pos-one, .template-1 .fullwidth .pos-two, .template-1 .fullwidth .col-img {
+.template-1 .fullwidth article,
+.template-1 .fullwidth .row,
+.template-1 .fullwidth .pos-one,
+.template-1 .fullwidth .pos-two,
+.template-1 .fullwidth .col-img {
     height: 100%;
 }
 
-.template-1-landing .fullwidth article, .template-1-landing .fullwidth .row, .template-1-landing .fullwidth .pos-one, .template-1-landing .fullwidth .pos-two, .template-1-landing .fullwidth .media, .template-1-landing .fullwidth .col-img {
+.template-1-landing .fullwidth article,
+.template-1-landing .fullwidth .row,
+.template-1-landing .fullwidth .pos-one,
+.template-1-landing .fullwidth .pos-two,
+.template-1-landing .fullwidth .media,
+.template-1-landing .fullwidth .col-img {
     height: 100%;
 }
 
-.template-1 .fullwidth .pos-two, .template-1-landing .fullwidth .pos-two {
+.template-1 .fullwidth .pos-two,
+.template-1-landing .fullwidth .pos-two {
     padding: 0px;
 }
 
-.template-1 .fullwidth .row, .template-1-landing .fullwidth .row {
+.template-1 .fullwidth .row,
+.template-1-landing .fullwidth .row {
     margin-left: 0px;
     margin-right: 0px;
 }
 
-.template-1 .fullwidth .pos-one, .template-1-landing .fullwidth .pos-one {
+.template-1 .fullwidth .pos-one,
+.template-1-landing .fullwidth .pos-one {
     overflow: scroll;
 }
 
-.template-1 .fullwidth .img-responsive, .template-1-landing .fullwidth .img-responsive {
+.template-1 .fullwidth .img-responsive,
+.template-1-landing .fullwidth .img-responsive {
     height: 100% !important;
     object-fit: cover;
 }
@@ -278,13 +298,16 @@ hr {
     padding-right: 1rem;
 }
 
-.fullwidth .col-xs-12, .mainMenu .col-xs-12 {
+.fullwidth .col-xs-12,
+.mainMenu .col-xs-12 {
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
 @media (max-width: 800px) {
-    .template-1 .fullwidth .pos-one, .template-1-landing .fullwidth .pos-one {
+
+    .template-1 .fullwidth .pos-one,
+    .template-1-landing .fullwidth .pos-one {
         overflow: hidden;
     }
 
@@ -297,9 +320,22 @@ hr {
 /* //////////////////////////////////// TEMPLATE 1 //////////////////////////////////////////////// */
 
 .template-1 h3 span {
-    font-size: 3em;
+    font-size: 2.5em;
+    line-height: normal;
 }
 
-.template-1 .fullwidth article {
+.backgroundColored {
     background: aliceblue;
+}
+
+.template-1 .fullwidth article .media {
+    width: 70%;
+}
+
+.template-1 .textInformations {
+    margin-top: 0px;
+}
+
+.colorForBackground {
+    display: none;
 }

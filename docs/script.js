@@ -1,5 +1,11 @@
 window.onload = function () {
     menuOpenCloses();
+    changeColorBackgroundMedia();
+}
+
+function changeColorBackgroundMedia() {
+    var color = jQuery("colorForBackground").html();
+    console.log(color);
 }
 
 function menuOpenCloses() {
