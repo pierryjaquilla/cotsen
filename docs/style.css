@@ -341,14 +341,15 @@ hr {
 }
 
 .buttonLibrary {
-    background-color: brown;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 0px;
     right: 0px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
 .buttonLibrary div {
