@@ -350,7 +350,9 @@ hr {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
+    margin: 5px;
 }
+
 
 .buttonLibrary div {
     background-color: grey;
