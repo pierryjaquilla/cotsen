@@ -319,7 +319,7 @@ hr {
 
 /* //////////////////////////////////// TEMPLATE 1 //////////////////////////////////////////////// */
 
-.template-1 h3 span {
+.template-1 h3 span, .template-1 h3 {
     font-size: 2.5em;
     line-height: normal;
 }
