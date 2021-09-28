@@ -347,4 +347,12 @@ hr {
     position: absolute;
     top: 0px;
     right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonLibrary div {
+    background-color: grey;
+    width: 45%;
+    height: 45%;
 }
