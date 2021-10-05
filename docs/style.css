@@ -236,7 +236,7 @@ hr {
     position: relative;
     top: 50px;
     text-align: center;
-    height: 50px;
+    height: 50px !important;
 }
 
 .template-1 .fullwidth article,
