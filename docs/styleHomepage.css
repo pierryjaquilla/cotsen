@@ -21,3 +21,9 @@
 .container.mainMenu * img.igLogo {
     filter: brightness(100%) !important;
 }
+
+/* ///////////////////////// more images/////////////////////////// */
+
+.moreImages {
+    display: none;
+}
