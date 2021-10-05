@@ -359,3 +359,9 @@ hr {
     width: 45%;
     height: 45%;
 }
+
+/* ///////////////////////// more images/////////////////////////// */
+
+.moreImages {
+    display: none;
+}
