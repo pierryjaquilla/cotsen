@@ -232,7 +232,7 @@ hr {
 }
 
 .template-1 .container.five-across,
-.template-1-landing .container.five-across {
+.template-1-landing .container.five-across, .underMenu {
     position: relative;
     top: 50px;
     text-align: center;
