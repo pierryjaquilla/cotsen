@@ -2,6 +2,7 @@ window.onload = function () {
     menuOpenCloses();
     changeColorBackgroundMedia();
     openLibrary();
+    zoomInPicture();
 }
 
 function changeColorBackgroundMedia() {
@@ -57,5 +58,12 @@ function openLibrary() {
 
         console.log("Library open");
         jQuery(".library").addClass("open");
+    });
+}
+
+function zoomInPicture() {
+    $(".card img").on("click", function() {
+        console.log($(this).attr('src'));
+        $("#biggerPicture img").attr('src', $(this).attr('src'));
     });
 }
