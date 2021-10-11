@@ -34,7 +34,7 @@ function menuOpenCloses() {
 
 function openLibrary() {
     console.log("init");
-    jQuery("moreImages img").forEach(element => {
+    jQuery("moreImages img").each(element => {
         console.log(this.src);
         var element = document.createElement("div");
         var image = document.createElement("IMG");
@@ -44,7 +44,7 @@ function openLibrary() {
         $(element).append(image);
         $(".images-container").append(element);
     });
-    
+
     jQuery(".buttonLibrary").on("click", function () {
 
         console.log("Library open");
