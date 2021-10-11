@@ -39,7 +39,7 @@ function openLibrary() {
     jQuery(".moreImages img").each(function(){
         test = element;
         console.log(jQuery(this));
-        console.log(element);
+
         console.log(jQuery(this).attr('src'));
 
         var element = document.createElement("div");
