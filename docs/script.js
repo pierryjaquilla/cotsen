@@ -35,12 +35,12 @@ function menuOpenCloses() {
 function openLibrary() {
     console.log(jQuery(".moreImages img"));
     jQuery(".moreImages img").each(element => {
-        console.log($(this).attr(src));
+        console.log(jQuery(this).attr(src));
         var element = document.createElement("div");
         var image = document.createElement("IMG");
-        image.alt = $(this).attr("alt");
+        image.alt = jQuery(this).attr("alt");
         // image.setAttribute('class', 'photo');
-        image.src = $(this).attr(src);
+        image.src = jQuery(this).attr(src);
         $(element).append(image);
         $(".images-container").append(element);
     });
