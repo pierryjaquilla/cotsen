@@ -46,7 +46,7 @@ function openLibrary() {
         jQuery(element).append(image);
         jQuery(".images-container").append(element);
 
-        $("#biggerPicture img").attr('src', $(this).attr('src'));
+        jQuery("#biggerPicture img").attr('src', jQuery(this).attr('src'));
 
     });
 
