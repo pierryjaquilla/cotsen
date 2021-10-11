@@ -35,5 +35,6 @@ function menuOpenCloses() {
 function openLibrary() {
     jQuery("buttonLibrary").on("click", function() {
         console.log("Library open");
+        jQuery("library").addClass("open");
     });
 }
