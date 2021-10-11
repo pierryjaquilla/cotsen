@@ -35,8 +35,10 @@ function menuOpenCloses() {
 function openLibrary() {
     console.log(jQuery(".moreImages img"));
     jQuery(".moreImages img").each(element => {
-        console.log(jQuery(this).attr("src"));
+
+        console.log(jQuery(this));
         var element = document.createElement("div");
+        element.classList.add("card");
         var image = document.createElement("IMG");
         image.alt = jQuery(this).attr("alt");
         // image.setAttribute('class', 'photo');
