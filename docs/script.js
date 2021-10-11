@@ -45,7 +45,7 @@ function openLibrary() {
         image.src = jQuery(this).attr("src");
         jQuery(element).append(image);
         jQuery(".images-container").append(element);
-        
+
         $("#biggerPicture img").attr('src', $(this).attr('src'));
 
     });
@@ -58,8 +58,8 @@ function openLibrary() {
 }
 
 function zoomInPicture() {
-    $(".card img").on("click", function() {
-        console.log($(this).attr('src'));
-        $("#biggerPicture img").attr('src', $(this).attr('src'));
+    jQuery(".card img").on("click", function() {
+        console.log(jQuery(this).attr('src'));
+        jQuery("#biggerPicture img").attr('src', jQuery(this).attr('src'));
     });
 }
