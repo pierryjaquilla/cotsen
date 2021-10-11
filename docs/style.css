@@ -447,4 +447,5 @@ hr {
     transform: translate(-50%, -50%); */
     /* object-fit: cover; */
     height: 100% !important;
+    max-width: 1400000000;
 }
