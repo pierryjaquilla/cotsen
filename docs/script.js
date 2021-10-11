@@ -32,10 +32,12 @@ function menuOpenCloses() {
     });
 }
 
+let test;
+
 function openLibrary() {
     console.log(jQuery(".moreImages img"));
     jQuery(".moreImages img").each(element => {
-
+        test = jQuery(this);
         console.log(jQuery(this));
         console.log(jQuery(this).attr("src"));
 
