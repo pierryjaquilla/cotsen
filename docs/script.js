@@ -6,9 +6,12 @@ window.onload = function () {
 
 function changeColorBackgroundMedia() {
     var color = jQuery(".colorForBackground").html();
-    if (color.includes("#")) {
-        color = "#" + color.split('#')[1];
-        jQuery(".backgroundColored").css("backgroundColor", color);
+    if (color) {
+        if (color.includes("#")) {
+            color = "#" + color.split('#')[1];
+            jQuery(".backgroundColored").css("backgroundColor", color);
+    
+        }
     }
 }
 
