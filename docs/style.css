@@ -233,7 +233,8 @@ hr {
 }
 
 .template-1 .container.five-across,
-.template-1-landing .container.five-across, .underMenu {
+.template-1-landing .container.five-across,
+.underMenu {
     position: relative;
     top: 50px;
     text-align: center;
@@ -320,7 +321,8 @@ hr {
 
 /* //////////////////////////////////// TEMPLATE 1 //////////////////////////////////////////////// */
 
-.template-1 h3 span, .template-1 h3 {
+.template-1 h3 span,
+.template-1 h3 {
     font-size: 2.5em;
     line-height: normal;
 }
@@ -390,7 +392,8 @@ hr {
 }
 
 #biggerPicture img {
-    height: calc(90vh - 200px);}
+    height: calc(90vh - 200px);
+}
 
 .view-port {
     margin: 0;
@@ -430,7 +433,7 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%); */
     box-sizing: border-box;
-    padding: 10px 0 10px 10px ;
+    padding: 10px 0 10px 10px;
     height: 100%;
 }
 
@@ -446,4 +449,6 @@ hr {
     transform: translate(-50%, -50%); */
     /* object-fit: cover; */
     height: 100% !important;
-    max-width: 1000px !important;}
+    max-width: 1000px !important;
+    width: fit-content !important;
+}
