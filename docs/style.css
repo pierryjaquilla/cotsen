@@ -147,6 +147,7 @@ nav#main-nav {
 }
 
 .fullMenu {
+    width: 100%;
     background-color: #EFF9FF;
     position: absolute;
     top: 50px;
@@ -351,6 +352,7 @@ hr {
     justify-content: space-around;
     align-content: space-around;
     margin: 5px;
+    cursor: pointer;
 }
 
 

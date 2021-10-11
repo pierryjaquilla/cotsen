@@ -1,6 +1,7 @@
 window.onload = function () {
     menuOpenCloses();
     changeColorBackgroundMedia();
+    openLibrary();
 }
 
 function changeColorBackgroundMedia() {
@@ -25,5 +26,11 @@ function menuOpenCloses() {
     });
     jQuery(".fullMenu span").on("mousedown", function() {
         full[0].classList.remove("hideMenu");
+    });
+}
+
+function openLibrary() {
+    $("buttonLibrary").on("click", function() {
+        console.log("Library open");
     });
 }
