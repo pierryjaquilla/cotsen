@@ -33,8 +33,8 @@ function menuOpenCloses() {
 }
 
 function openLibrary() {
-    console.log(jQuery("moreImages img"));
-    jQuery("moreImages img").each(element => {
+    console.log(jQuery(".moreImages img"));
+    jQuery(".moreImages img").each(element => {
         console.log(this.src);
         var element = document.createElement("div");
         var image = document.createElement("IMG");
