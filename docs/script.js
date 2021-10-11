@@ -33,7 +33,7 @@ function menuOpenCloses() {
 }
 
 function openLibrary() {
-    $("buttonLibrary").on("click", function() {
+    jQuery("buttonLibrary").on("click", function() {
         console.log("Library open");
     });
 }
