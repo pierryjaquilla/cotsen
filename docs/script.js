@@ -33,25 +33,21 @@ function menuOpenCloses() {
     });
 }
 
-let test;
 
 function openLibrary() {
     console.log(jQuery(".moreImages img"));
     jQuery(".moreImages img").each(function(){
-        test = element;
-        console.log(jQuery(this));
-
-        console.log(jQuery(this).attr('src'));
-
         var element = document.createElement("div");
         element.classList.add("card");
         var image = document.createElement("IMG");
         image.alt = jQuery(this).attr("alt");
         // image.setAttribute('class', 'photo');
         image.src = jQuery(this).attr("src");
-        console.log(image.src);
         jQuery(element).append(image);
         jQuery(".images-container").append(element);
+        
+        $("#biggerPicture img").attr('src', $(this).attr('src'));
+
     });
 
     jQuery(".buttonLibrary").on("click", function () {
