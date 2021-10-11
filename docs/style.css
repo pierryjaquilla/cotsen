@@ -374,6 +374,7 @@ hr {
     height: 100vh;
     left: 100vw;
     transition: left 2s ease-in-out;
+    background-color: white;
 }
 
 .library.open {
@@ -396,7 +397,7 @@ hr {
     padding: 0;
     width: 100%;
     height: 200px;
-
+    background-color: white;
     position: absolute;
     bottom: 0px;
     left: 0;
@@ -445,5 +446,5 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%); */
     /* object-fit: cover; */
-    height: 100%;
+    height: 100% !important;
 }
