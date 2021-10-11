@@ -36,7 +36,7 @@ let test;
 
 function openLibrary() {
     console.log(jQuery(".moreImages img"));
-    jQuery(".moreImages img").each(element => {
+    jQuery(".moreImages img").each(function(){
         test = element;
         console.log(jQuery(this));
         console.log(element);
