@@ -37,7 +37,7 @@ function openLibrary() {
     jQuery(".moreImages img").each(element => {
 
         console.log(jQuery(this));
-        console.log(jQuery(this).attr(src));
+        console.log(jQuery(this).attr("src"));
 
         var element = document.createElement("div");
         element.classList.add("card");
