@@ -41,8 +41,8 @@ function openLibrary() {
         image.alt = jQuery(this).attr("alt");
         // image.setAttribute('class', 'photo');
         image.src = jQuery(this).attr("src");
-        $(element).append(image);
-        $(".images-container").append(element);
+        jQuery(element).append(image);
+        jQuery(".images-container").append(element);
     });
 
     jQuery(".buttonLibrary").on("click", function () {
