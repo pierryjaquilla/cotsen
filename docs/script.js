@@ -34,17 +34,19 @@ function menuOpenCloses() {
 
 function openLibrary() {
     console.log("init");
+    jQuery("moreImages img").forEach(element => {
+        console.log(this.src);
+        var element = document.createElement("div");
+        var image = document.createElement("IMG");
+        image.alt = this.attr("alt");
+        // image.setAttribute('class', 'photo');
+        image.src = this.src;
+        $(element).append(image);
+        $(".images-container").append(element);
+    });
+    
     jQuery(".buttonLibrary").on("click", function () {
-        jQuery("moreImages img").forEach(element => {
-            console.log(this.src);
-            var element = document.createElement("div");
-            var image = document.createElement("IMG");
-            image.alt = this.attr("alt");
-            // image.setAttribute('class', 'photo');
-            image.src = this.src;
-            $(element).append(image);
-            $(".images-container").append(element);
-        });
+
         console.log("Library open");
         jQuery(".library").addClass("open");
     });
