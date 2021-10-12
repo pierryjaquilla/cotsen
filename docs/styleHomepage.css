@@ -26,4 +26,17 @@
 
 .headerWhite {
     height: 90px;
+    transition: height 1s ease-in-out;
+}
+
+.headerWhite.hidden {
+    height: 0px;
+}
+
+.#nav-bar-wrapper {
+    background-color: transparent;
+}
+
+.#nav-bar {
+    border: transparent;
 }
