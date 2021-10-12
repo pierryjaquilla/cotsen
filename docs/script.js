@@ -47,13 +47,14 @@ function openLibrary() {
         jQuery(".images-container").append(element);
 
         jQuery("#biggerPicture img").attr('src', jQuery(this).attr('src'));
-
     });
+    jQuery("card").last().addClass("last");
 
     jQuery(".buttonLibrary").on("click", function () {
-
-        console.log("Library open");
         jQuery(".library").addClass("open");
+    });
+    jQuery(".closeLibrary").on("click", function () {
+        jQuery(".library").removeClass("open");
     });
 }
 
