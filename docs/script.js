@@ -66,7 +66,7 @@ function zoomInPicture() {
     });
 }
 
-let test = lol;
+let test;
 
 function accordionMenu() {
     jQuery(".fullMenu .promo-title").on("click", function() {
