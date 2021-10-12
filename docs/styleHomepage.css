@@ -1,5 +1,7 @@
 .container.mainMenu {
     background-color: #00537F;
+    position: relative;
+    top: 100px;
 }
 
 .homepage img {
@@ -22,3 +24,6 @@
     filter: brightness(100%) !important;
 }
 
+.headerWhite {
+    height: 90px;
+}
