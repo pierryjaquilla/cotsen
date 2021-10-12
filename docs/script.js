@@ -73,7 +73,7 @@ function accordionMenu() {
     jQuery(".fullMenu .promo-title").on("click", function() {
         let toOpen = jQuery(this).parent().next();
         test = toOpen;
-        console.log(toOpen.scrollHeight);
-        toOpen.height(toOpen.scrollHeight);
+        console.log(toOpen[0].scrollHeight);
+        toOpen.height(toOpen[0].scrollHeight);
     });
 }
