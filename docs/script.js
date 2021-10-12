@@ -64,3 +64,11 @@ function zoomInPicture() {
         jQuery("#biggerPicture img").attr('src', jQuery(this).attr('src'));
     });
 }
+
+function accordionMenu() {
+    jQuery(".promo-title").on("click", function() {
+        let toOpen = jQuery(this).parent.next();
+        console.log(toOpen);
+        toOpen.height(toOpen.scrollHeight);
+    });
+}
