@@ -29,14 +29,14 @@
     transition: height 1s ease-in-out;
 }
 
-.headerWhite.hidden {
+.headerWhite.close {
     height: 0px;
 }
 
-.#nav-bar-wrapper {
+#nav-bar-wrapper {
     background-color: transparent;
 }
 
-.#nav-bar {
+#nav-bar {
     border: transparent;
 }

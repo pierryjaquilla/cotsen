@@ -28,6 +28,9 @@ function menuOpenCloses() {
         } else {
             full[0].classList.add("hideMenu");
         }
+        if( jQuery('.headerWhite').length ) {
+            jQuery(".headerWhite").addClass("close");
+        }
     });
     jQuery(".fullMenu span").on("mousedown", function () {
         full[0].classList.remove("hideMenu");
