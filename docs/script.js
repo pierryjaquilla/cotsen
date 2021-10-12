@@ -66,13 +66,14 @@ function zoomInPicture() {
     });
 }
 
-let test;
-
 function accordionMenu() {
     jQuery(".fullMenu .promo-title").on("click", function() {
         let toOpen = jQuery(this).parent().next();
         test = toOpen;
-        console.log(toOpen[0].scrollHeight);
-        toOpen.height(toOpen[0].scrollHeight);
+        if (toOpen.height() == 0) {
+            toOpen.height(toOpen[0].scrollHeight);
+        } else {
+            toOpen.height(0);
+        }        
     });
 }
