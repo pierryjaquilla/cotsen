@@ -3,6 +3,7 @@ window.onload = function () {
     changeColorBackgroundMedia();
     openLibrary();
     zoomInPicture();
+    accordionMenu();
 }
 
 function changeColorBackgroundMedia() {
@@ -66,7 +67,7 @@ function zoomInPicture() {
 }
 
 function accordionMenu() {
-    jQuery(".promo-title").on("click", function() {
+    jQuery(".fullMenu .promo-title").on("click", function() {
         let toOpen = jQuery(this).parent.next();
         console.log(toOpen);
         toOpen.height(toOpen.scrollHeight);
