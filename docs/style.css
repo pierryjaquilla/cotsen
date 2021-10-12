@@ -456,7 +456,7 @@ hr {
 }
 
 .closeLibrary {
-    background-color: red;
+    /* background-color: red; */
     position: absolute;
     top: 60px;
     right: 10px;
