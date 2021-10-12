@@ -66,11 +66,14 @@ function zoomInPicture() {
     });
 }
 
+let test = lol;
+
 function accordionMenu() {
     jQuery(".fullMenu .promo-title").on("click", function() {
         let toOpen = jQuery(this).parent().next();
-        console.log("bitch wtf");
-        console.log(jQuery(toOpen).scrollHeight);
+        test = toOpen;
+        console.log("wtf");
+        console.log(toOpen.scrollHeight);
         toOpen.height(toOpen.scrollHeight);
     });
 }
