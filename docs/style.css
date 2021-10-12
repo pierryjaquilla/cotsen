@@ -385,14 +385,16 @@ hr {
 
 #biggerPicture {
     position: absolute;
-    top: calc(50% - 100px);
-    left: 50%;
+    top: calc(50% - 80px);
+        left: 50%;
     transform: translate(-50%, -50%);
     /* height: calc(60vh - 200px); */
+    width: fit-content !important;
 }
 
 #biggerPicture img {
-    height: calc(90vh - 200px);
+    height: calc(90vh - 250px);
+    width: auto !important;
 }
 
 .view-port {
@@ -450,5 +452,5 @@ hr {
     /* object-fit: cover; */
     height: 100% !important;
     max-width: 1000px !important;
-    width: fit-content !important;
+    width: auto !important;
 }
