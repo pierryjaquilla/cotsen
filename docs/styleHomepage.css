@@ -2,6 +2,7 @@
     background-color: #00537F;
     position: relative;
     top: 100px;
+    transition: top 1s ease-in-out;
 }
 
 .homepage img {
@@ -24,9 +25,14 @@
     filter: brightness(100%) !important;
 }
 
+.container.mainMenu.close {
+    top: 0px;
+}
+
 .headerWhite {
     height: 90px;
     transition: height 1s ease-in-out;
+    overflow: hidden;
 }
 
 .headerWhite.close {
