@@ -37,7 +37,7 @@ function menuOpenCloses() {
 
 function openLibrary() {
     console.log(jQuery(".moreImages img"));
-    jQuery(".moreImages img").each(function(){
+    jQuery(".moreImages img").each(function () {
         var element = document.createElement("div");
         element.classList.add("card");
         var image = document.createElement("IMG");
@@ -60,23 +60,25 @@ function openLibrary() {
 }
 
 function zoomInPicture() {
-    jQuery(".card img").on("click", function() {
+    jQuery(".card img").on("click", function () {
         console.log(jQuery(this).attr('src'));
         jQuery("#biggerPicture img").attr('src', jQuery(this).attr('src'));
     });
 }
 
 function accordionMenu() {
-    if (window.innerWidth < 840) {
-        jQuery(".fullMenu .promo-title").on("click", function() {
+    jQuery(".fullMenu .promo-title").on("click", function () {
+        if (window.innerWidth < 840) {
+
             let toOpen = jQuery(this).parent().next();
             test = toOpen;
             if (toOpen.height() == 0) {
                 toOpen.height(toOpen[0].scrollHeight);
             } else {
                 toOpen.height(0);
-            }        
-        });
-    }
+            }
+        }
+    });
+
 
 }
