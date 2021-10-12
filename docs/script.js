@@ -69,7 +69,7 @@ function zoomInPicture() {
 function accordionMenu() {
     jQuery(".fullMenu .promo-title").on("click", function() {
         let toOpen = jQuery(this).parent().next();
-        console.log(toOpen);
+        console.log(toOpen.scrollHeight);
         toOpen.height(toOpen.scrollHeight);
     });
 }
