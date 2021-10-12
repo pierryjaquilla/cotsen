@@ -375,7 +375,7 @@ hr {
     width: 100vw;
     height: 100vh;
     left: 100vw;
-    transition: left 2s ease-in-out;
+    transition: left 1s ease-in-out;
     background-color: white;
 }
 
