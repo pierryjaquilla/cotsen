@@ -276,6 +276,8 @@ hr {
 .template-1-landing .row {
     margin-left: 0px;
     margin-right: 0px;
+    display: flex;
+    justify-content: center;
 }
 
 .template-1 .fullwidth .pos-one,
