@@ -1,0 +1,28 @@
+{
+  "name": "cotsen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "cotsen": "parcel index.html && ngrok http 1234"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierryjaquilla/cotsen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierryjaquilla/cotsen/issues"
+  },
+  "homepage": "https://github.com/pierryjaquilla/cotsen#readme",
+  "devDependencies": {
+    "sass": "^1.36.0"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}
