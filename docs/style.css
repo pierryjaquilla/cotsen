@@ -225,7 +225,7 @@ hr {
 .template-1-landing .container {
     position: relative;
     top: 50px;
-    /* height: calc(100vh - 145px); */
+    height: calc(100vh - 145px);
 }
 
 .fullwidth {
