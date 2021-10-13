@@ -42,7 +42,14 @@
 
 .headerWhite .pos-one {
     margin-left: 25%;
-    height: 120px;
+    height: 80px;
+}
+
+.headerWhite article {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 #nav-bar-wrapper {
