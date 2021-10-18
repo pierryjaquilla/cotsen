@@ -95,7 +95,7 @@ nav#main-nav {
 .mainMenu .row {
     margin-left: 0px;
     margin-right: 0px;
-    transform: translate(0px, -50%);
+    /* transform: translate(0px, -50%); */
 }
 
 .mainMenu #main-nav .row {
