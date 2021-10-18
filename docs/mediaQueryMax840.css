@@ -34,17 +34,18 @@
         order: 2;
     }
 
-    .buttonLibrary {
-        display: none;
+    .buttonLibrary, .tabs, .underMenu {
+        display: none !important;
     }
 
     .backgroundColored {
-        background-color: transparent;
+        background-color: transparent !important;
+        margin: 16px;
     }
 
     .backgroundColored .media {
         margin: auto;
-        width: calc(100% - 16px);
+        width: 100%;
     }
 
     .template-1 .textInformations {
