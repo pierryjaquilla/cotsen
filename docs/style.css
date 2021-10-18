@@ -96,8 +96,14 @@ nav#main-nav {
     margin-left: 0px;
     margin-right: 0px;
     /* transform: translate(0px, -50%); */
-    /* display: flex; */
     height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.mainMenu .row::after {
+    content: none;
 }
 
 .mainMenu .col-md-3 {
@@ -256,7 +262,7 @@ hr {
 .template-1-landing .container {
     position: relative;
     top: 50px;
-    height: calc(100vh - 145px);
+    height: calc(100vh - 115px);
 }
 
 .fullwidth {
@@ -365,7 +371,7 @@ hr {
 
 .template-1 h3 span,
 .template-1 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: normal;
     text-align: center;
 }
