@@ -168,6 +168,19 @@ nav#main-nav {
     display: none;
 }
 
+.blueFooter {
+    max-width: 100%;
+    width: 100%;
+}
+
+.blueFooter .blue-boxes-divider {
+    display: none;
+}
+
+.blueFooter .col-sm-12 {
+    width: 33.33333% !important;
+}
+
 /* ///////////////////////////////////// */
 
 * {
@@ -486,4 +499,4 @@ hr {
     transform: rotate(-45deg);
   }
   
-  
+  /* ////////////// BLUE FOOTER IN MENU ///////////////// */
