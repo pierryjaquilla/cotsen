@@ -13,7 +13,8 @@
 
     }
 
-    .underMenu h3, .tabs h3 {
+    .underMenu h3,
+    .tabs h3 {
         font-size: 1em;
     }
 
@@ -22,3 +23,34 @@
 }
 
 
+@media screen and (max-width: 700px) {
+
+    /* ------------------------------------------- REORGANIZE LIBRARY */
+    .fullwidth .row {
+        flex-wrap: wrap;
+    }
+
+    .fullwidth .row .pos-one {
+        order: 2;
+    }
+
+    .buttonLibrary {
+        display: none;
+    }
+
+    .backgroundColored {
+        background-color: transparent;
+    }
+
+    .backgroundColored .media {
+        margin: auto;
+        width: calc(100% - 16px);
+    }
+
+    .template-1 .textInformations {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+
+}
