@@ -41,16 +41,21 @@
     .backgroundColored {
         background-color: transparent !important;
         margin: 16px;
+        height: auto;
     }
 
     .backgroundColored .media {
         margin: auto;
-        width: 100%;
+        width: 100% !important;
     }
 
     .template-1 .textInformations {
         text-align: center;
         font-size: 1.5em;
+    }
+
+    .template-1 .fullwidth .col-img {
+        height: auto;
     }
 
 
