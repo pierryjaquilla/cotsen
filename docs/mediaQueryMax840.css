@@ -1,11 +1,24 @@
 @media screen and (max-width: 840px) {
+
+
+    /* ---------------------------------------FULLMENU */
     .fullMenu .col-copy {
         overflow: hidden;
         transition: height 1s ease-in-out;
         height: 0px;
     }
 
-    .col-copy.hidden {
+    body {
+        font-size: 71%;
+
     }
 
+    .underMenu h3, .tabs h3 {
+        font-size: 1em;
+    }
+
+
+
 }
+
+

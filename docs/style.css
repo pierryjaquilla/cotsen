@@ -95,6 +95,7 @@ nav#main-nav {
 .mainMenu .row {
     margin-left: 0px;
     margin-right: 0px;
+    transform: translate(0px, -50%);
 }
 
 .mainMenu #main-nav .row {
@@ -156,10 +157,11 @@ nav#main-nav {
     transition: top 2s ease-in-out;
     z-index: 10;
     overflow: scroll;
+    color: black;
 }
 
 .fullMenu span {
-    font-size: 2em;
+    font-size: 1.4em;
 }
 
 .fullMenu h3 {
@@ -260,7 +262,7 @@ hr {
 
 .template-1 .container.five-across,
 .template-1-landing .container.five-across,
-.underMenu {
+.underMenu, .tabs {
     position: relative;
     top: 50px;
     text-align: center;
