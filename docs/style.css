@@ -106,7 +106,7 @@ nav#main-nav {
     justify-content: space-between;
 }
 
-.mainMenu .row::after, .mainMenu .row::after {
+.mainMenu .row::before, .mainMenu .row::after {
     content: none;
 }
 
