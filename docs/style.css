@@ -158,6 +158,14 @@ nav#main-nav {
     overflow: scroll;
 }
 
+.fullMenu span {
+    font-size: 2em;
+}
+
+.fullMenu h3 {
+    font-size: 1.7em;
+}
+
 .hideMenu {
     top: 110vh;
 }
@@ -179,6 +187,10 @@ nav#main-nav {
 
 .blueFooter .col-sm-12 {
     width: 33.33333% !important;
+}
+
+.blueFooter p {
+    font-size: 0.7em;
 }
 
 /* ///////////////////////////////////// */
