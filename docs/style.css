@@ -76,6 +76,10 @@ nav#main-nav {
     height: 100%;
 }
 
+.container.mainMenu:before, .container.mainMenu:after {
+    content: none;
+}
+
 .container.mainMenu {
     height: 100%;
     -webkit-box-sizing: border-box;
@@ -102,7 +106,7 @@ nav#main-nav {
     justify-content: space-between;
 }
 
-.mainMenu .row::after {
+.mainMenu .row::after, .mainMenu .row::after {
     content: none;
 }
 
