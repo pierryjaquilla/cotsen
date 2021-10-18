@@ -96,6 +96,12 @@ nav#main-nav {
     margin-left: 0px;
     margin-right: 0px;
     /* transform: translate(0px, -50%); */
+    /* display: flex; */
+    height: 100%;
+}
+
+.mainMenu .col-md-3 {
+    width: 14%;
 }
 
 .mainMenu #main-nav .row {
@@ -361,6 +367,7 @@ hr {
 .template-1 h3 {
     font-size: 2em;
     line-height: normal;
+    text-align: center;
 }
 
 .backgroundColored {
