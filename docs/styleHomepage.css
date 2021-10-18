@@ -8,6 +8,7 @@
 .homepage img {
     height: 100vh !important;
     object-fit: cover;
+
 }
 
 /* /////// img full screen issue ///////// */
@@ -37,6 +38,18 @@
 
 .headerWhite.close {
     height: 0px;
+}
+
+.headerWhite .pos-one {
+    margin-left: 25%;
+    height: 80px;
+}
+
+.headerWhite article {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 #nav-bar-wrapper {

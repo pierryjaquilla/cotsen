@@ -30,6 +30,7 @@ function menuOpenCloses() {
         }
         if( jQuery('.headerWhite').length ) {
             jQuery(".headerWhite").addClass("close");
+            jQuery(".mainMenu").addClass("close");
         }
     });
     jQuery(".fullMenu span").on("mousedown", function () {
