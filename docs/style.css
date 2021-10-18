@@ -137,9 +137,12 @@ nav#main-nav {
     height: 100%;
 }
 
+.mainMenu span {
+    font-size: 1.5em;
+}
+
 .container.mainMenu * img.igLogo {
     float: right;
-    transform: translate(0, -48%);
     height: 30px !important;
     width: 30px !important;
     filter: brightness(0%);
@@ -283,6 +286,10 @@ hr {
     top: 50px;
     text-align: center;
     height: 50px !important;
+}
+
+.tabs {
+    font-size: 1.5em;
 }
 
 .template-1 .fullwidth article,
