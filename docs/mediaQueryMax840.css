@@ -60,11 +60,17 @@
         height: auto;
     }
 
+    .backgroundColored .col-copy {
+        display: flex;
+    }
+
     .arrow {
         border: solid black;
         border-width: 0 3px 3px 0;
         display: inline-block !important;
         padding: 3px;
+        width: 10px;
+        height: 10px;
       }
       
       .right {

@@ -1,3 +1,7 @@
+const {
+    text
+} = require("express");
+
 window.onload = function () {
     menuOpenCloses();
     changeColorBackgroundMedia();
@@ -29,7 +33,7 @@ function menuOpenCloses() {
         } else {
             full[0].classList.add("hideMenu");
         }
-        if( jQuery('.headerWhite').length ) {
+        if (jQuery('.headerWhite').length) {
             jQuery(".headerWhite").addClass("close");
             jQuery(".mainMenu").addClass("close");
         }
@@ -86,7 +90,36 @@ function accordionMenu() {
     });
 }
 
+let images;
+let texts;
+let currentDisplayed = 0;
+
 function createArrows() {
     jQuery("<div class=\"arrow left\"></div>").insertBefore(".backgroundColored .textInformations");
     jQuery("<div class=\"arrow right\"></div>").insertAfter(".backgroundColored .textInformations");
+    allowBrowseLibrary();
+    images = jQuery(".moreImages img");
+    images.unshift(jQuery(".backgroundColored img")[0]); //add to begining
+    texts = jQuery(".moreImages col-copy p");
+    texts.unshift(jQuery(".backgroundColored .textInformations")[0]);
+    console.log(texts);
+    console.log(images);
+
+}
+
+function allowBrowseLibrary() {
+    jQuery(".arrow left").on("click", function () {
+        console.log(currentDisplayed);
+        ++currentDisplayed;
+        console.log(currentDisplayed);
+        jQuery(".backgroundColored img").attr('src', images[currentDisplayed]);
+        jQuery(".backgroundColored .textInformations").text(texts[currentDisplayed]);
+    });
+
+    jQuery(".arrow right").on("click", function () {
+        console.log(currentDisplayed);
+        ++currentDisplayed;
+        console.log(currentDisplayed);
+
+    });
 }
