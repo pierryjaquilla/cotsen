@@ -97,14 +97,17 @@ let currentDisplayed = 0;
 function createArrows() {
     jQuery("<div class=\"arrow left\"></div>").insertBefore(".backgroundColored .textInformations");
     jQuery("<div class=\"arrow right\"></div>").insertAfter(".backgroundColored .textInformations");
-    allowBrowseLibrary();
+    
     images = jQuery(".moreImages img");
-    images.unshift(jQuery(".backgroundColored img")[0]); //add to begining
     texts = jQuery(".moreImages col-copy p");
-    texts.unshift(jQuery(".backgroundColored .textInformations")[0]);
+    if (images.length >= 0) {
+        images.unshift(jQuery(".backgroundColored img")[0]); //add to begining
+        texts.unshift(jQuery(".backgroundColored .textInformations")[0]);
+    }
+
     console.log(texts);
     console.log(images);
-
+    allowBrowseLibrary();
 }
 
 function allowBrowseLibrary() {
