@@ -49,14 +49,33 @@
         width: 100% !important;
     }
 
-    .template-1 .textInformations {
+    .backgroundColored .textInformations {
         text-align: center;
         font-size: 1.5em;
+        width: 90%;
+        margin: auto;
     }
 
     .template-1 .fullwidth .col-img {
         height: auto;
     }
+
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block !important;
+        padding: 3px;
+      }
+      
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+      
+      .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
 
 
 }

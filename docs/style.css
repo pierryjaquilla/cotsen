@@ -424,6 +424,10 @@ hr {
     height: 45%;
 }
 
+.arrow {
+    display: none;
+}
+
 /* ///////////////////////// more images / LIBRARY /////////////////////////// */
 
 .moreImages {

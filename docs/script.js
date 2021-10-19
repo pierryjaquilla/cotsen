@@ -4,6 +4,7 @@ window.onload = function () {
     openLibrary();
     zoomInPicture();
     accordionMenu();
+    createArrows();
 }
 
 function changeColorBackgroundMedia() {
@@ -83,6 +84,9 @@ function accordionMenu() {
             }
         }
     });
+}
 
-
+function createArrows() {
+    jQuery("<div class=\"arrow left\"></div>").insertBefore(".backgroundColored .textInformations");
+    jQuery("<div class=\"arrow right\"></div>").insertAfter(".backgroundColored .textInformations");
 }
