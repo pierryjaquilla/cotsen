@@ -1,6 +1,9 @@
 // const {
 //     text
 // } = require("express");
+if (document.location.pathname == "/") {
+    window.location.href = "https://cotsen.drupal.gwu.edu/homepage-content";
+}
 
 window.onload = function () {
     menuOpenCloses();
@@ -9,6 +12,8 @@ window.onload = function () {
     zoomInPicture();
     accordionMenu();
     createArrows();
+
+
 }
 
 function changeColorBackgroundMedia() {
