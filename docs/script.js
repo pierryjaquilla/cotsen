@@ -5,6 +5,7 @@ if (document.location.pathname == "/") {
     window.location.href = "https://cotsen.drupal.gwu.edu/homepage-content";
 }
 
+
 window.onload = function () {
     menuOpenCloses();
     changeColorBackgroundMedia();
