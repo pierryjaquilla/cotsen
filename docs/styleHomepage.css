@@ -11,6 +11,10 @@
 
 }
 
+body {
+    overflow: hidden;
+}
+
 /* /////// img full screen issue ///////// */
 
 /* #block-system-main {
