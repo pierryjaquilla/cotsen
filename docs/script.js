@@ -1,6 +1,6 @@
-const {
-    text
-} = require("express");
+// const {
+//     text
+// } = require("express");
 
 window.onload = function () {
     menuOpenCloses();
