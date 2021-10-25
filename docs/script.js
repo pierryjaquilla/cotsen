@@ -1,6 +1,4 @@
-// const {
-//     text
-// } = require("express");
+
 if (document.location.pathname == "/") {
     window.location.href = "https://cotsen.drupal.gwu.edu/homepage-content";
 }
@@ -13,8 +11,24 @@ window.onload = function () {
     zoomInPicture();
     accordionMenu();
     createArrows();
+    changeTemplate1();
 
+}
 
+function changeTemplate1() {
+    if (jQuery(".template-1").toArray().length > 0) {
+        let containers = jQuery(".container").toArray();
+        let enable = false;
+        for (let i = 0; i < containers.length; i++) {
+            if (jQuery(containers[i]).hasClass("fullwidth")) {
+                enable = true;
+            }
+            if (enable) {
+                jQuery(containers[i]).addClass("fullwidth");
+            }
+        }
+        console.log(containers);
+    }
 }
 
 function changeColorBackgroundMedia() {
@@ -51,7 +65,7 @@ function menuOpenCloses() {
 
 
 function openLibrary() {
-    console.log(jQuery(".moreImages img"));
+    // console.log(jQuery(".moreImages img"));
     jQuery(".moreImages img").each(function () {
         var element = document.createElement("div");
         element.classList.add("card");
@@ -110,9 +124,8 @@ function createArrows() {
         images.unshift(jQuery(".backgroundColored img")[0]); //add to begining
         texts.unshift(jQuery(".backgroundColored .textInformations")[0]);
     }
-
-    console.log(texts);
-    console.log(images);
+    // console.log(texts);
+    // console.log(images);
     allowBrowseLibrary();
 }
 
