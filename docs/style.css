@@ -1,7 +1,7 @@
 body {
     color: black;
     /* background-color: cadetblue !important; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -269,7 +269,7 @@ hr {
 .template-1-landing .container {
     position: relative;
     top: 50px;
-    height: calc(100vh - 115px);
+    /* height: calc(100vh - 115px); */
 }
 
 .fullwidth {
@@ -312,6 +312,9 @@ hr {
 .template-1 .fullwidth .pos-two,
 .template-1-landing .fullwidth .pos-two {
     padding: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
 }
 
 .template-1 .fullwidth .row,
@@ -325,12 +328,13 @@ hr {
     margin-left: 0px;
     margin-right: 0px;
     display: flex;
+    align-self: flex-start;
     justify-content: center;
 }
 
 .template-1 .fullwidth .pos-one,
 .template-1-landing .fullwidth .pos-one {
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .template-1 .fullwidth .img-responsive,
