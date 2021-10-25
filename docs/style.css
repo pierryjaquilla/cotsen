@@ -176,15 +176,20 @@ nav#main-nav {
     transition: top 2s ease-in-out;
     z-index: 10;
     overflow: scroll;
-    color: black;
+    color: black !important;
 }
 
 .fullMenu span {
-    font-size: 1.4em;
+    font-size: 1.2em;
+    line-height: 1em;
+    color: black !important;
+    padding-left: 1em;
 }
 
 .fullMenu h3 {
     font-size: 1.7em;
+    color: black !important;
+    margin-bottom: 0.2em !important;
 }
 
 .hideMenu {
