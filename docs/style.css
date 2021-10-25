@@ -332,10 +332,10 @@ hr {
     justify-content: center;
 }
 
-.template-1 .fullwidth .pos-one,
+/* .template-1 .fullwidth .pos-one,
 .template-1-landing .fullwidth .pos-one {
-    /* overflow: scroll; */
-}
+     overflow: scroll; 
+} */
 
 .template-1 .fullwidth .img-responsive,
 .template-1-landing .fullwidth .img-responsive {
