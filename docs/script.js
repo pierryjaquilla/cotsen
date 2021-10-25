@@ -26,6 +26,7 @@ function changeTemplate1() {
             if (enable) {
                 jQuery(containers[i]).addClass("fullwidth");
                 jQuery(".template-1").append(containers[i]);
+                console.log("yes");
             }
         }
         console.log(containers);
