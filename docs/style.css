@@ -323,7 +323,8 @@ hr {
   padding: 0px;
   position: sticky;
   position: -webkit-sticky;
-  top: 0px;
+  top: 50px;
+  height: calc(100vh - 50px);
 }
 
 .template-1 .fullwidth .row,
