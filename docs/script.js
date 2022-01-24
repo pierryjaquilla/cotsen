@@ -68,7 +68,7 @@ function menuOpenCloses() {
 
 function openLibrary() {
     // console.log(jQuery(".moreImages img"));
-    jQuery(".moreImages img").each(function () {
+    jQuery("fullwidth img").each(function () {
         var element = document.createElement("div");
         element.classList.add("card");
         var image = document.createElement("IMG");
@@ -84,9 +84,12 @@ function openLibrary() {
 
     jQuery(".buttonLibrary").on("click", function () {
         jQuery(".library").addClass("open");
+        console.log("open");
     });
     jQuery(".closeLibrary").on("click", function () {
         jQuery(".library").removeClass("open");
+        console.log("close");
+
     });
 }
 
