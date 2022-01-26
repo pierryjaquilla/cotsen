@@ -2,7 +2,7 @@
 var cssFile = document.createElement('link');
 cssFile.rel = 'stylesheet';
 cssFile.href = "http://localhost:8888/docs/style.css";  // or path for file {themes('/styles/mobile.css')}
-document.head.appendChild(cssFile); // append css to head element
+document.body.appendChild(cssFile); // append css to body element, normally should be head
 
 
 if (document.location.pathname == "/") {
