@@ -1,4 +1,10 @@
 
+var cssFile = document.createElement('link');
+cssLink1.rel = 'stylesheet';
+cssLink1.href = "http://localhost:8888/docs/style.css";  // or path for file {themes('/styles/mobile.css')}
+document.head.appendChild(cssFile); // append css to head element
+
+
 if (document.location.pathname == "/") {
     window.location.href = "https://cotsen.drupal.gwu.edu/homepage-content";
 }
