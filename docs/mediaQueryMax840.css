@@ -49,7 +49,7 @@
         width: 100% !important;
     }
 
-    .backgroundColored .textInformations {
+    .backgroundColored .backgroundColored .col-copy h6 {
         text-align: center;
         font-size: 1.5em;
         width: 90%;
