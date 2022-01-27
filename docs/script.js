@@ -130,8 +130,8 @@ function createArrows() {
     jQuery("<div class=\"arrow left\"></div>").insertBefore(".backgroundColored .textInformations");
     jQuery("<div class=\"arrow right\"></div>").insertAfter(".backgroundColored .textInformations");
     
-    images = jQuery(".moreImages img").toArray();
-    texts = jQuery(".moreImages col-copy p").toArray();
+    images = jQuery(".fullwidth img").toArray();
+    texts = jQuery(".fullwidth .textInformations col-copy p").toArray();
     if (images.length > 0) {
         images.unshift(jQuery(".backgroundColored img")[0]); //add to begining
         texts.unshift(jQuery(".backgroundColored .textInformations")[0]);
