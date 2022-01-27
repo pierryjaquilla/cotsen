@@ -396,6 +396,10 @@ hr {
     width: 100%;
     float: initial;
   }
+
+  .igLogo {
+    display: none;
+  }
 }
 
 /* //////////////////////////////////// TEMPLATE 1 //////////////////////////////////////////////// */
@@ -415,7 +419,7 @@ hr {
   width: 70%;
 }
 
-.template-1 .textInformations {
+.template-1 .backgroundColored .col-copy h6 {
   margin-top: 0px;
 }
 
@@ -484,6 +488,8 @@ h5 {
 #biggerPicture img {
   /* height: calc(90vh - 250px); */
   width: auto !important;
+  display:block;
+  margin:auto;
 }
 
 .view-port {

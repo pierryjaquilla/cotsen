@@ -129,14 +129,14 @@ let texts;
 let currentDisplayed = 0;
 
 function createArrows() {
-    jQuery("<div class=\"arrow left\"></div>").insertBefore(".backgroundColored .textInformations");
-    jQuery("<div class=\"arrow right\"></div>").insertAfter(".backgroundColored .textInformations");
+    jQuery("<div class=\"arrow left\"></div>").insertBefore(".backgroundColored .backgroundColored .col-copy h6");
+    jQuery("<div class=\"arrow right\"></div>").insertAfter(".backgroundColored .backgroundColored .col-copy h6");
     
     images = jQuery(".fullwidth img").toArray();
-    texts = jQuery(".fullwidth .textInformations col-copy p").toArray();
+    texts = jQuery(".fullwidth .backgroundColored .col-copy h6").toArray();
     if (images.length > 0) {
         images.unshift(jQuery(".backgroundColored img")[0]); //add to begining
-        texts.unshift(jQuery(".backgroundColored .textInformations")[0]);
+        texts.unshift(jQuery(".backgroundColored .backgroundColored .col-copy h6")[0]);
     }
     // console.log(texts);
     // console.log(images);
@@ -149,7 +149,7 @@ function allowBrowseLibrary() {
         ++currentDisplayed;
         console.log(currentDisplayed);
         jQuery(".backgroundColored img").attr('src', images[currentDisplayed]);
-        jQuery(".backgroundColored .textInformations").text(texts[currentDisplayed]);
+        jQuery(".backgroundColored .backgroundColored .col-copy h6").text(texts[currentDisplayed]);
     });
 
     jQuery(".arrow right").on("click", function () {
