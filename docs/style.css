@@ -68,6 +68,8 @@ div#stickySearch {
 
 #navigation {
   height: 100%;
+  z-index: 999999 !important;
+
 }
 
 nav#main-nav {
@@ -268,10 +270,15 @@ hr {
   bottom: 0px;
 }
 
-.template-1 .container,
+.template-1 .container {
+  position: relative;
+  top: 0px;
+  /* height: calc(100vh - 115px); */
+}
+
 .template-1-landing .container {
   position: relative;
-  /* top: 50px; */
+  top: 50px;
   /* height: calc(100vh - 115px); */
 }
 
@@ -428,6 +435,7 @@ hr {
   align-content: space-around;
   margin: 5px;
   cursor: pointer;
+  z-index: 9;
 }
 
 .buttonLibrary div {
@@ -457,6 +465,7 @@ h5 {
   left: 100vw;
   transition: left 1s ease-in-out;
   background-color: white;
+  z-index: 99;
 }
 
 .library.open {

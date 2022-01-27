@@ -35,7 +35,7 @@ function changeTemplate1() {
                 console.log("yes");
             }
         }
-        console.log(containers);
+        // console.log(containers);
     }
 }
 
@@ -83,7 +83,7 @@ function openLibrary() {
         image.src = jQuery(this).attr("src");
         jQuery(element).append(image);
         jQuery(".images-container").append(element);
-
+        console.log(this);
         jQuery("#biggerPicture img").attr('src', jQuery(this).attr('src'));
     });
     jQuery("card").last().addClass("last");
