@@ -25,11 +25,12 @@
 
 @media screen and (max-width: 700px) {
 
-    /* ------------------------------------------- REORGANIZE LIBRARY
+     /* ------------------------------------------- REORGANIZE LIBRARY */
     .fullwidth .row {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        display: block;
     }
-
+/*
     .fullwidth .row .pos-one {
         order: 2;
     }
