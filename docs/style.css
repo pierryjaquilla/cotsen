@@ -435,7 +435,7 @@ hr {
   align-content: space-around;
   margin: 5px;
   cursor: pointer;
-  z-index: 9;
+  z-index: 8;
 }
 
 .buttonLibrary div {
@@ -465,7 +465,7 @@ h5 {
   left: 100vw;
   transition: left 1s ease-in-out;
   background-color: white;
-  z-index: 99;
+  z-index: 9;
 }
 
 .library.open {
