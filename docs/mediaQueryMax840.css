@@ -28,7 +28,7 @@
      /* ------------------------------------------- REORGANIZE LIBRARY */
     .fullwidth .row {
         /* flex-wrap: wrap; */
-        display: block;
+        display: block !important;
     }
 /*
     .fullwidth .row .pos-one {
