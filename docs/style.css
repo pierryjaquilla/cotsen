@@ -478,11 +478,11 @@ h5 {
   left: 50%;
   transform: translate(-50%, -50%);
   /* height: calc(60vh - 200px); */
-  width: fit-content !important;
+  width: 75% !important;
 }
 
 #biggerPicture img {
-  height: calc(90vh - 250px);
+  /* height: calc(90vh - 250px); */
   width: auto !important;
 }
 

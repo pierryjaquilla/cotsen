@@ -45,7 +45,7 @@ function changeColorBackgroundMedia() {
         if (color.includes("#")) {
             color = "#" + color.split('#')[1];
             jQuery(".backgroundColored").css("backgroundColor", color);
-
+            console.log(color);
         }
     }
 }
