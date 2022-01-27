@@ -40,14 +40,16 @@ function changeTemplate1() {
 }
 
 function changeColorBackgroundMedia() {
-    var color = jQuery(".colorForBackground").html();
-    if (color) {
-        if (color.includes("#")) {
-            color = "#" + color.split('#')[1];
-            jQuery(".backgroundColored").css("backgroundColor", color);
-            console.log(color);
+    jQuery(".backgroundColored").each(function() {
+        var color = jQuery(this).find(".colorForBackground").html();
+        console.log(color);
+        if (color) {
+            if (color.includes("#")) {
+                color = "#" + color.split('#')[1];
+                jQuery(this).css("backgroundColor", color);
+            }
         }
-    }
+    });
 }
 
 function menuOpenCloses() {
