@@ -43,6 +43,24 @@
         display: none;
       }
 
+    .menuHamburger, .mainMenu .pos-three div {
+        width: 100%;
+        height: 100%;
+        background-color: slateblue;
+    }
+
+    .tabs {
+        display: none;
+    }
+
+    .mainMenu .pos-one {
+        display: none;
+    }
+
+    .mainMenu .pos-two p {
+        text-align: left;
+    }
+
      /* ------------------------------------------- REORGANIZE LIBRARY */
     .fullwidth .row {
         /* flex-wrap: wrap; */
