@@ -43,12 +43,16 @@
         display: none;
       }
 
+      .mainMenu .pos-four {
+        padding: 5px;
+      }
+
     .menuHamburger, .mainMenu .pos-four {
         /* width: 100%; */
         height: 100%;
         /* background-color: slateblue; */
         display: block;
-        /* padding: 5px; */
+        
     }
 
     .menuHamburger {
