@@ -43,10 +43,28 @@
         display: none;
       }
 
-    .menuHamburger, .mainMenu .pos-four div {
-        width: 100%;
+    .menuHamburger, .mainMenu .pos-four {
+        /* width: 100%; */
         height: 100%;
-        background-color: slateblue;
+        /* background-color: slateblue; */
+        display: block;
+        padding: 5px;
+    }
+
+    .menuHamburger {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        width: 7vw;
+        float: right;
+    }
+
+    .mainMenu .pos-four div {
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        display: block;
+
     }
 
     .tabs {
@@ -68,7 +86,23 @@
     }
 
     .buttonLibrary {
-        display: none;
+        display: none ! important;
+    }
+
+    .template-1 .backgroundColored .col-copy h6 {
+        text-align: center;
+    }
+
+    .template-1 .backgroundColored {
+        background-color: white !important;
+    }
+
+    .template-1 .media {
+        margin: auto;
+    }
+
+    .fullwidth .col-sm-6 {
+        height: auto !important;
     }
 
 /*

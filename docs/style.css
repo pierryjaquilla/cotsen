@@ -210,7 +210,9 @@ nav#main-nav {
 
 .blueFooter {
   max-width: 100%;
-  width: 100%;
+  width: calc(100% - 30px);
+  bottom: 43px;
+  position: absolute;
 }
 
 .blueFooter .blue-boxes-divider {
