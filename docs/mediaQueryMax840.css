@@ -1,3 +1,17 @@
+@media (max-width: 800px) {
+    .template-1 .fullwidth .pos-one,
+    .template-1-landing .fullwidth .pos-one {
+      overflow: hidden;
+    }
+  
+    .fullwidth .col-sm-6 {
+      width: 100%;
+      float: initial;
+    }
+  
+
+  }
+
 @media screen and (max-width: 740px) {
 
 
@@ -9,7 +23,7 @@
     }
 
     body {
-        font-size: 71%;
+        font-size: 91%;
 
     }
 
@@ -25,11 +39,20 @@
 
 @media screen and (max-width: 700px) {
 
+    .igLogo {
+        display: none;
+      }
+
      /* ------------------------------------------- REORGANIZE LIBRARY */
     .fullwidth .row {
         /* flex-wrap: wrap; */
         display: block !important;
     }
+
+    .buttonLibrary {
+        display: none;
+    }
+
 /*
     .fullwidth .row .pos-one {
         order: 2;
