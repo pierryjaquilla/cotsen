@@ -116,6 +116,10 @@ nav#main-nav {
   width: 14%;
 }
 
+.mainMenu .pos-four {
+  display: none;
+}
+
 .mainMenu #main-nav .row {
   height: 100%;
   width: 100%;
