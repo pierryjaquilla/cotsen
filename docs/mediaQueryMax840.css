@@ -51,17 +51,16 @@
         /* width: 100%; */
         height: 100%;
         /* background-color: slateblue; */
-        display: block;
-        
+        display: block !important;        
     }
 
     .menuHamburger {
-        display: flex;
+        display: flex !important;
         flex-wrap: wrap;
         align-content: space-around;
         width: 7vw;
         float: right;
-        padding: 5px;
+        /* padding: 5px; */
 
     }
 
@@ -97,6 +96,7 @@
 
     .template-1 .backgroundColored .col-copy h6 {
         text-align: center;
+        margin-bottom: 50px;
     }
 
     .template-1 .backgroundColored {
