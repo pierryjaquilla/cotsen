@@ -62,7 +62,7 @@
         display: flex !important;
         flex-wrap: wrap;
         align-content: space-around;
-        width: 7vw;
+        width: 25px;
         float: right;
         /* padding: 5px; */
         position: relative;
@@ -89,6 +89,10 @@
 
     .mainMenu .pos-two p {
         text-align: left;
+    }
+
+    .blueFooter {
+        display: none;
     }
 
      /* ------------------------------------------- REORGANIZE LIBRARY */
