@@ -73,7 +73,7 @@ function menuOpenCloses() {
             jQuery(".mainMenu").addClass("close");
         }
     });
-    jQuery(".menuHamburger").addEventListener("mousedown", function () {
+    jQuery(".menuHamburger").on("mousedown", function () {
         if (full[0].classList.contains('hideMenu')) {
             full[0].classList.remove("hideMenu");
         } else {
