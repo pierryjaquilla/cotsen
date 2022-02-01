@@ -59,6 +59,7 @@ function changeColorBackgroundMedia() {
 
 function menuOpenCloses() {
     var menuButton = document.getElementById("menuButton");
+    var hamburger = document.getElementsByClassName("menuHamburger");
     var full = document.getElementsByClassName("fullMenu");
     // console.log(menuButton);
     // console.log(full);
@@ -73,6 +74,18 @@ function menuOpenCloses() {
             jQuery(".mainMenu").addClass("close");
         }
     });
+    hamburger.item.addEventListener("mousedown", function () {
+        if (full[0].classList.contains('hideMenu')) {
+            full[0].classList.remove("hideMenu");
+        } else {
+            full[0].classList.add("hideMenu");
+        }
+        if (jQuery('.headerWhite').length) {
+            jQuery(".headerWhite").addClass("close");
+            jQuery(".mainMenu").addClass("close");
+        }
+    });
+
     jQuery(".fullMenu span").on("mousedown", function () {
         full[0].classList.remove("hideMenu");
     });
