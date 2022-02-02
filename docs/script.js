@@ -93,7 +93,7 @@ function menuOpenCloses() {
 
 function openLibrary() {
     // console.log(jQuery(".moreImages img"));
-    console.log("hi bitch");
+    // console.log("hi bitch");
     jQuery(".fullwidth img").each(function () {
         var element = document.createElement("div");
         element.classList.add("card");
