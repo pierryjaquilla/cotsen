@@ -236,9 +236,10 @@ a,
   font-family: "Avenir Next Cyr W00 Light", Helvetica, Arial, sans-serif !important;
 }
 
-a:hover {
+a:hover, #menuButton {
   text-decoration: none;
   color: grey;
+  cursor: pointer;
 }
 
 #stickyLogo {
@@ -267,6 +268,10 @@ hr {
 }
 
 /* ////////////////////////////// TEMPLATE 1 & landing //////////////////////////////////////// */
+.template-1-landing {
+  overflow: hidden;
+}
+
 .template-1,
 .template-1-landing {
   width: 100vw;
@@ -362,7 +367,7 @@ hr {
 
 .template-1 .fullwidth .img-responsive,
 .template-1-landing .fullwidth .img-responsive {
-  height: 100% !important;
+  height: 100vh !important;
   object-fit: cover;
 }
 
@@ -413,6 +418,8 @@ hr {
 
 .template-1 .backgroundColored .col-copy h6 {
   margin-top: 0px;
+  position: relative;
+  top: -10px;
 }
 
 .colorForBackground {

@@ -177,4 +177,16 @@
       } */
 
 
+      /* //////////////// VIDEO MEDIA & documents  */
+      .template-video {
+        position: relative;
+        top: 50px;
+      }
+
+
+      .container.mediaAndDocu {
+          display: none;
+      }
+
+
 }
