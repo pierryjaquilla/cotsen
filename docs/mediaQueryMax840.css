@@ -196,7 +196,7 @@
       }
 
 
-      .container.mediaAndDocu {
+      .container.mediaAndDocu .row {
           display: none;
       }
 
