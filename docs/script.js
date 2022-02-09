@@ -30,7 +30,7 @@ function getSetCurrentTab() {
     console.log("set");
     let s = window.location.href
     let a = s.split("/");
-    document.getElementById("currentTab").innerHTML = a[2];
+    document.getElementById("currentTab").innerHTML = a[3];
 }
 
 function changeTemplate1() {
