@@ -28,7 +28,9 @@ window.onload = function () {
 
 function getSetCurrentTab() {
     console.log("set");
-    document.getElementById("currentTab").innerHTML = "Page location is " + window.location.href;
+    let s = window.location.href
+    let a = s.split("/");
+    document.getElementById("currentTab").innerHTML = a[2];
 }
 
 function changeTemplate1() {
