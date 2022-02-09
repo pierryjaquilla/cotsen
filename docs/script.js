@@ -28,8 +28,9 @@ window.onload = function () {
 
 function getSetCurrentTab() {
     console.log("set");
-    let s = window.location.href
+    let s = window.location.href;
     let a = s.split("/");
+    a = a.replaceThisByThat("-", " ");
     document.getElementById("currentTab").innerHTML = "<p>" + a[3] + "</p>";
 }
 
@@ -182,4 +183,14 @@ function allowBrowseLibrary() {
         console.log(currentDisplayed);
 
     });
+}
+
+String.prototype.replaceThisByThat = function(look, replacement) {
+    if (index >= this.length) {
+        return this.valueOf();
+    }
+ 
+    var chars = this.split(look);
+    // chars[index] = replacement;
+    return chars.join(replacement);
 }
