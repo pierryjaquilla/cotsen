@@ -185,11 +185,7 @@ function allowBrowseLibrary() {
     });
 }
 
-String.prototype.replaceThisByThat = function(look, replacement) {
-    if (index >= this.length) {
-        return this.valueOf();
-    }
- 
+String.prototype.replaceThisByThat = function(look, replacement) { 
     var chars = this.split(look);
     // chars[index] = replacement;
     return chars.join(replacement);
