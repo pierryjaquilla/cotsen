@@ -267,6 +267,8 @@ a:hover, #menuButton {
   padding-top: 45px;
   text-align: center;
   width: 80%;
+  position: relative;
+    top: 0px;
 }
 
 h2 {
@@ -428,6 +430,10 @@ hr {
   font-size: 1.5em !important;
   line-height: normal;
   text-align: center;
+}
+
+.testimonial-heavy a {
+  font-family: Avenir Next LT W04 Bold !important;
 }
 
 .backgroundColored {
