@@ -51,7 +51,7 @@ function changeTemplate1() {
 function changeColorBackgroundMedia() {
     jQuery(".backgroundColored").each(function() {
         var color = jQuery(this).find(".colorForBackground").html();
-        console.log(color);
+        // console.log(color);
         if (color) {
             if (color.includes("#")) {
                 color = "#" + color.split('#')[1];
