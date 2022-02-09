@@ -27,6 +27,7 @@ window.onload = function () {
 }
 
 function getSetCurrentTab() {
+    console.log("set");
     document.getElementById("currentTab").innerHTML = "Page location is " + window.location.href;
 }
 
