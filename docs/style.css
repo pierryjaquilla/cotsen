@@ -158,8 +158,11 @@ nav#main-nav {
   filter: brightness(0%);
 }
 
-#currentTab p {
+#currentTab {
   display: none;
+}
+
+#currentTab p {
   font-size: 1.5em;
   text-align: left;
   text-transform: uppercase;
