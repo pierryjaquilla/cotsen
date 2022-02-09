@@ -42,12 +42,6 @@
         font-size: 1em;
     }
 
-    #currentTab {
-        display: block !important;
-      }
-
-
-
 }
 
 
@@ -96,6 +90,10 @@
     .tabs .row {
         display: none;
     }
+
+    #currentTab {
+        display: block !important;
+      }
 
     .mainMenu .pos-one {
         display: none;

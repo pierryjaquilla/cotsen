@@ -148,7 +148,7 @@ nav#main-nav {
 }
 
 .mainMenu span {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .container.mainMenu * img.igLogo {
@@ -160,6 +160,10 @@ nav#main-nav {
 
 #currentTab {
   display: none;
+  font-size: 1.5em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #033c5a;
 }
 
 .titleCotsonTextileStudyCenter {
