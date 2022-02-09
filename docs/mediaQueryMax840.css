@@ -42,6 +42,10 @@
         font-size: 1em;
     }
 
+    .currentTab {
+        display: block !important;
+      }
+
 
 
 }

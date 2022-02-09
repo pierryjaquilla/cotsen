@@ -158,6 +158,10 @@ nav#main-nav {
   filter: brightness(0%);
 }
 
+.currentTab {
+  display: none;
+}
+
 .titleCotsonTextileStudyCenter {
   text-align: center;
 }

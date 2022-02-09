@@ -23,7 +23,11 @@ window.onload = function () {
     accordionMenu();
     createArrows();
     changeTemplate1();
+    getSetCurrentTab();
+}
 
+function getSetCurrentTab() {
+    document.getElementById("currentTab").innerHTML = "Page location is " + window.location.href;
 }
 
 function changeTemplate1() {
