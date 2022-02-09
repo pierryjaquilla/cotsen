@@ -42,7 +42,7 @@
         font-size: 1em;
     }
 
-    .currentTab {
+    #currentTab {
         display: block !important;
       }
 

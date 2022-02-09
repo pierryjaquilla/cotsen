@@ -158,7 +158,7 @@ nav#main-nav {
   filter: brightness(0%);
 }
 
-.currentTab {
+#currentTab {
   display: none;
 }
 
