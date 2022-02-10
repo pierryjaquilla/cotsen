@@ -350,6 +350,19 @@ hr {
   height: 100%;
 }
 
+.template-1-landing .fullwidth .pos-one,
+.template-1-landing .fullwidth .pos-two {
+  position: absolute;
+}
+
+.template-1-landing .fullwidth .pos-one {
+  left: 0px;
+}
+
+.template-1-landing .fullwidth .pos-two {
+  right: 0px;
+}
+
 /* Attempt fix sticky header */
 .zen-clear {
     overflow: visible;
@@ -368,6 +381,7 @@ hr {
 .template-1-landing .fullwidth .row {
   margin-left: 0px;
   margin-right: 0px;
+  position: relative;
 }
 
 .template-1 .row,
