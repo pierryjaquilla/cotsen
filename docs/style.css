@@ -352,7 +352,6 @@ hr {
 
 .template-1-landing .fullwidth .pos-one,
 .template-1-landing .fullwidth .pos-two {
-  position: absolute;
 }
 
 .template-1-landing .fullwidth .pos-one {
@@ -371,7 +370,7 @@ hr {
 .template-1 .fullwidth .pos-two,
 .template-1-landing .fullwidth .pos-two {
   padding: 0px;
-  position: sticky;
+  position: absolute;
   position: -webkit-sticky;
   top: 50px;
   height: calc(100vh - 50px);
