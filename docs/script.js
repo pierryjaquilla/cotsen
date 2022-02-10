@@ -28,7 +28,7 @@ window.onload = function () {
 }
 
 function makeStickyPossible() {
-    let all = jQuery(".template-1 .fullwidth .pos-two");
+    let all = jQuery(".template-1 .fullwidth .pos-two .backgroundColored");
     console.log(all);
 
     if (all.length > 0) {
