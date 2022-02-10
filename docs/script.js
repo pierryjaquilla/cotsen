@@ -24,8 +24,17 @@ window.onload = function () {
     createArrows();
     changeTemplate1();
     getSetCurrentTab();
+    makeStickyPossible();
 }
 
+function makeStickyPossible() {
+    let all = jQuery(".template-1 .fullwidth .pos-two *");
+    console.log(all);
+
+    if (all.length > 0) {
+        let newDiv = document.createElement("div");
+    }
+}
 function getSetCurrentTab() {
     console.log("set");
     let s = window.location.href;
