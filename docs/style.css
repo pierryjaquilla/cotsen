@@ -395,7 +395,7 @@ hr {
   height: 100% !important;
   object-fit: cover;
 }
-.container p.col-img  {
+.container .centered p.col-img  {
   height: 100vh !important;
 
 }
