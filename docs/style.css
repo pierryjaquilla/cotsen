@@ -396,6 +396,12 @@ hr {
   object-fit: cover;
 }
 
+.homepage .centered img {
+  height: 100vh !important;
+  object-fit: cover;
+
+}
+
 .homepage .fullwidth .img-responsive {
   height: 100vh !important;
   object-fit: cover;
