@@ -87,6 +87,11 @@
 
     }
 
+    .homepage .mainMenu .pos-four div {
+        background-color: white;
+
+    }
+
     .tabs .row {
         display: none;
     }
@@ -208,4 +213,10 @@
       }
 
 
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        font-size: 70%;
+    }
 }
