@@ -28,11 +28,23 @@ window.onload = function () {
 }
 
 function makeStickyPossible() {
-    let all = jQuery(".template-1 .fullwidth .pos-two *");
+    let all = jQuery(".template-1 .fullwidth .pos-two");
     console.log(all);
 
     if (all.length > 0) {
-        let newDiv = document.createElement("div");
+        
+        all.forEach(function(e) {
+            let newDiv = document.createElement("div");
+            newDiv.classList.add("rowContent");
+            let cont = e.find("*");
+            cont.forEach(function(f) {
+                console.log(f);
+                newDiv.appendChild(f);
+            });
+            e.appendChild(newDiv);
+        });
+        
+        
     }
 }
 function getSetCurrentTab() {
