@@ -473,14 +473,16 @@ hr {
   background: aliceblue;
 }
 
-.template-1 .fullwidth article .rowContent {
-  width: 70%;
-}
+
 
 .rowContent {
-  width: 70%;
+  width: 100%;
   position: sticky;
   top: 50px;
+}
+
+.rowContent img {
+  width: 70%;
 }
 
 .template-1 .backgroundColored .col-copy h6 {

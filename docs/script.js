@@ -49,7 +49,7 @@ function makeStickyPossible() {
                 console.log(this);
                 newDiv.appendChild(this);
             });
-            this.append(lib);
+            newDiv.append(lib);
             this.append(newDiv);
         });
         
