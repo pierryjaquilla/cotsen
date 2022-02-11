@@ -36,8 +36,8 @@ function makeStickyPossible() {
         all.each(function(e) {
             let newDiv = document.createElement("div");
             newDiv.classList.add("rowContent");
-            let cont = e.find("*");
-            cont.forEach(function(f) {
+            let cont = jQuery(e).find("*");
+            cont.each(function(f) {
                 console.log(f);
                 newDiv.appendChild(f);
             });
