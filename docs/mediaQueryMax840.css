@@ -144,7 +144,7 @@
     }
 
     .rowContent img {
-        margin: auto;
+        margin: auto !important;
     }
 
     .fullwidth .col-sm-6 {
