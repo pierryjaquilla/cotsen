@@ -37,6 +37,14 @@ function makeStickyPossible() {
             console.log(this);
             let newDiv = document.createElement("div");
             newDiv.classList.add("rowContent");
+            let lib = document.createElement("div");
+            lib.classList.add("buttonLibrary");
+            lib.appendChild(document.createElement("div"));
+            lib.appendChild(document.createElement("div"));
+            lib.appendChild(document.createElement("div"));
+            lib.appendChild(document.createElement("div"));
+            this.append(lib);
+
             let cont = jQuery(this).find("*");
             console.log(cont);
             cont.each(function(f) {
