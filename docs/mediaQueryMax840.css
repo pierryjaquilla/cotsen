@@ -1,12 +1,12 @@
 @media screen and (max-width: 800px) {
     .template-1 .fullwidth .pos-one,
     .template-1-landing .fullwidth .pos-one {
-      overflow: hidden;
+      /* overflow: hidden; */
     }
   
     .fullwidth .col-sm-6 {
-      width: 100% !important;
-      float: initial;
+      /* width: 100% !important;
+      float: initial; */
     }
   
   
