@@ -139,6 +139,10 @@
         background-color: white !important;
     }
 
+    .template-1 .fullwidth .pos-two, .template-1-landing .fullwidth .pos-two {
+        position: relative;
+    }
+
     .rowContent img {
         margin: auto;
     }
