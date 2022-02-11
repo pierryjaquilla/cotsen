@@ -482,7 +482,7 @@ hr {
 }
 
 .rowContent img {
-  width: 70%;
+  width: 70% !important;
 }
 
 .template-1 .backgroundColored .col-copy h6 {
