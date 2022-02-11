@@ -479,6 +479,7 @@ hr {
   width: 100%;
   position: sticky;
   top: 50px;
+  margin-bottom: 20px;
 }
 
 .rowContent img {

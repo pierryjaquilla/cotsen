@@ -129,7 +129,7 @@
         display: none ! important;
     }
 
-    .template-1 .backgroundColored .col-copy h6 {
+    .rowContent h6 {
         text-align: center;
         margin-bottom: 50px;
     }
@@ -138,7 +138,7 @@
         background-color: white !important;
     }
 
-    .template-1 .media {
+    .rowContent img {
         margin: auto;
     }
 
