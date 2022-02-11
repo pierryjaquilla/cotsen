@@ -41,7 +41,7 @@ function makeStickyPossible() {
                 console.log(f);
                 newDiv.appendChild(f);
             });
-            e.appendChild(newDiv);
+            e.append(newDiv);
         });
         
     }
