@@ -44,7 +44,6 @@ function makeStickyPossible() {
             e.appendChild(newDiv);
         });
         
-        
     }
 }
 function getSetCurrentTab() {
