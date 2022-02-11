@@ -33,7 +33,7 @@ function makeStickyPossible() {
 
     if (all.length > 0) {
         
-        all.forEach(function(e) {
+        all.each(function(e) {
             let newDiv = document.createElement("div");
             newDiv.classList.add("rowContent");
             let cont = e.find("*");
