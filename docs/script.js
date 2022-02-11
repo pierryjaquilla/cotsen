@@ -39,11 +39,9 @@ function makeStickyPossible() {
             newDiv.classList.add("rowContent");
             let lib = document.createElement("div");
             lib.classList.add("buttonLibrary");
-            lib.appendChild(document.createElement("div"));
-            lib.appendChild(document.createElement("div"));
-            lib.appendChild(document.createElement("div"));
-            lib.appendChild(document.createElement("div"));
-            this.append(lib);
+            for (let i = 0; i < 4; i++) {
+                lib.appendChild(document.createElement("div"));
+            }
 
             let cont = jQuery(this).find("*");
             console.log(cont);
@@ -51,6 +49,7 @@ function makeStickyPossible() {
                 console.log(this);
                 newDiv.appendChild(this);
             });
+            this.append(lib);
             this.append(newDiv);
         });
         
