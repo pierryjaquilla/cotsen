@@ -33,17 +33,17 @@ function makeStickyPossible() {
 
     if (all.length > 0) {
         
-        all.each(function(e) {
-            console.log(e);
+        all.each(function(idx) {
+            console.log(this);
             let newDiv = document.createElement("div");
             newDiv.classList.add("rowContent");
-            let cont = jQuery(e).find("*");
-            console.log(cont)
+            let cont = jQuery(this).find("*");
+            console.log(cont);
             cont.each(function(f) {
-                console.log(f);
-                newDiv.appendChild(f);
+                console.log(this);
+                newDiv.appendChild(this);
             });
-            e.append(newDiv);
+            this.append(newDiv);
         });
         
     }
