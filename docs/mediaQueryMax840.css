@@ -44,7 +44,7 @@
         padding-right: 1.3rem;
     }
 
-    .plainText, .textInformations {
+    .plainText, .textInformations, .fullwidth p {
         line-height: 1.4em;
     }
 
@@ -136,6 +136,8 @@
         display: block !important;
         min-height: 0 !important;
     }
+
+ 
 
     .buttonLibrary {
         display: none ! important;
