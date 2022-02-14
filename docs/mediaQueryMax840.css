@@ -38,6 +38,16 @@
 
 
 @media screen and (max-width: 700px) {
+
+    .fullwidth .col-xs-12, .mainMenu .col-xs-12 {
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+
+    .plainText, .textInformations {
+        line-height: 1.4em;
+    }
+
     .template-1 .fullwidth .pos-one,
     .template-1-landing .fullwidth .pos-one {
       overflow: hidden;
@@ -124,6 +134,7 @@
     .fullwidth .row {
         /* flex-wrap: wrap; */
         display: block !important;
+        min-height: 0 !important;
     }
 
     .buttonLibrary {
@@ -140,7 +151,7 @@
     }
 
     .template-1 .fullwidth .pos-two, .template-1-landing .fullwidth .pos-two {
-        position: relative;
+        position: relative !important;
     }
 
     .rowContent img {
