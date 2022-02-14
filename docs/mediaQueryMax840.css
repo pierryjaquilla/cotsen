@@ -156,6 +156,7 @@
 
     .rowContent img {
         margin: auto !important;
+        width: calc(100% - 3.5em) !important;
     }
 
     .fullwidth .col-sm-6 {
