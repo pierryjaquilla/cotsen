@@ -327,6 +327,9 @@ hr {
   top: 50px;
   text-align: center;
   height: 50px !important;
+  position: sticky;
+    z-index: 1000;
+    background: white;
 }
 
 .tabs h3.promo-title {
@@ -355,10 +358,10 @@ hr {
   height: 100%;
 }
 
-.template-1 .fullwidth .pos-one,
+/* .template-1 .fullwidth .pos-one,
 .template-1 .fullwidth .pos-two {
-  /* position: absolute; */
-}
+  /* position: absolute;
+} */
 
 
 
