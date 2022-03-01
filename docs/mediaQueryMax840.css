@@ -1,8 +1,14 @@
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
 
+        /* ---------------------------------------FULLMENU */
+        .fullMenu .col-copy {
+            overflow: hidden;
+            transition: height 1s ease-in-out;
+            height: 0px;
+        }
   
   
-  } */
+  }
 
   @media screen and (max-width: 760px) {
     .mediaAndDocu {
@@ -17,12 +23,7 @@
 @media screen and (max-width: 740px) {
 
 
-    /* ---------------------------------------FULLMENU */
-    .fullMenu .col-copy {
-        overflow: hidden;
-        transition: height 1s ease-in-out;
-        height: 0px;
-    }
+
 
     body {
         font-size: 91%;
