@@ -149,7 +149,7 @@ nav#main-nav {
 }
 
 .mainMenu span {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .container.mainMenu * img.igLogo {
@@ -204,14 +204,14 @@ nav#main-nav {
 }
 
 .fullMenu span {
-  font-size: 1.2em;
+  font-size: 1.5rem;
   line-height: 1em;
   color: black !important;
   padding-left: 1em;
 }
 
 .fullMenu h3 {
-  font-size: 1.7em;
+  font-size: 1.5rem !important;
   color: black !important;
   margin-bottom: 0.2em !important;
 }
