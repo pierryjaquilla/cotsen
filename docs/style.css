@@ -20,7 +20,8 @@ body {
   display: none;
 }
 
-strong, strong a {
+strong,
+strong a {
   font-weight: bold !important;
 }
 
@@ -253,7 +254,8 @@ a,
   font-family: "Avenir Next Cyr W00 Light", Helvetica, Arial, sans-serif !important;
 }
 
-a:hover, #menuButton {
+a:hover,
+#menuButton {
   text-decoration: none;
   /* color: grey; */
   cursor: pointer;
@@ -270,7 +272,7 @@ a:hover, #menuButton {
   text-align: center;
   width: 80%;
   position: relative;
-    top: 0px;
+  top: 0px;
 }
 
 h2 {
@@ -329,17 +331,17 @@ hr {
   text-align: center;
   height: 50px !important;
   position: sticky;
-    z-index: 1000;
-    background: white;
+  z-index: 1;
+  background: white;
 }
 
 .tabs h3.promo-title {
   font-size: 1.2em !important;
 }
 
-.template-1 .fullwidth .row {
+/* .template-1 .fullwidth .row {
   min-height: 100vh;
-}
+} */
 
 
 .template-1 .fullwidth article,
@@ -368,7 +370,7 @@ hr {
 
 /* Attempt fix sticky header */
 .zen-clear {
-    overflow: visible;
+  overflow: visible;
 }
 
 .template-1 .fullwidth .pos-one {
@@ -421,7 +423,8 @@ hr {
   height: 100% !important;
   object-fit: cover;
 }
-.container .centered p.col-img  {
+
+.container .centered p.col-img {
   height: 100vh !important;
 
 }
@@ -565,8 +568,8 @@ h5 {
 #biggerPicture img {
   /* height: calc(90vh - 250px); */
   width: auto !important;
-  display:block;
-  margin:auto;
+  display: block;
+  margin: auto;
 }
 
 .view-port {
@@ -635,9 +638,11 @@ h5 {
   height: 40px;
   opacity: 0.3;
 }
+
 .closeLibrary:hover {
   opacity: 1;
 }
+
 .closeLibrary:before,
 .closeLibrary:after {
   position: absolute;
@@ -647,9 +652,11 @@ h5 {
   width: 2px;
   background-color: #333;
 }
+
 .closeLibrary:before {
   transform: rotate(45deg);
 }
+
 .closeLibrary:after {
   transform: rotate(-45deg);
 }
