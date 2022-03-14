@@ -256,6 +256,7 @@ a,
   text-decoration: none;
   color: black;
   font-family: "Avenir Next Cyr W00 Light", Helvetica, Arial, sans-serif !important;
+  font-size: 1.5rem;
 }
 
 a:hover,
@@ -311,6 +312,11 @@ hr {
   position: relative;
   top: 0px;
   /* height: calc(100vh - 115px); */
+  max-width: 100% !important;
+  width: 100% !important;
+
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .template-1-landing .container {
