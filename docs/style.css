@@ -207,13 +207,17 @@ nav#main-nav {
   font-size: 1.5rem;
   line-height: 1em;
   color: black !important;
-  padding-left: 1em;
 }
 
 .fullMenu h3 {
   font-size: 1.5rem !important;
   color: black !important;
   margin-bottom: 0.2em !important;
+}
+
+.fullMenu p {
+  padding-left: 1.5rem;
+
 }
 
 .hideMenu {
