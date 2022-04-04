@@ -343,7 +343,7 @@ hr {
   position: relative;
   top: 50px;
   text-align: center;
-  height: 50px !important;
+  height: 70px !important;
   position: sticky;
   z-index: 1;
   background: white;
@@ -516,6 +516,10 @@ hr {
   margin-top: 0px;
   position: relative;
   top: -10px;
+}
+
+.template-1 h6 {
+  margin-top: 0px;
 }
 
 .template-1 .rowContent h6 {
