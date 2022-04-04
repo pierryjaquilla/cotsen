@@ -298,6 +298,10 @@ hr {
   overflow: hidden;
 }
 
+.template-1 p {
+  font-size: 1.5rem;
+}
+
 .template-1,
 .template-1-landing {
   width: 100vw;
