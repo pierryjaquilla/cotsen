@@ -1,22 +1,22 @@
 @media screen and (max-width: 840px) {
 
-        /* ---------------------------------------FULLMENU */
-        .fullMenu .col-copy {
-            overflow: hidden;
-            transition: height 1s ease-in-out;
-            height: 0px;
-        }
-  
-  
-  }
+    /* ---------------------------------------FULLMENU */
+    .fullMenu .col-copy {
+        overflow: hidden;
+        transition: height 1s ease-in-out;
+        height: 0px;
+    }
 
-  @media screen and (max-width: 760px) {
+
+}
+
+@media screen and (max-width: 760px) {
     .mediaAndDocu {
         width: 100% !important;
     }
-  
-  
-  }
+
+
+}
 
 
 
@@ -37,25 +37,29 @@
 
 }
 
-.fullwidth .col-xs-12, .mainMenu .col-xs-12 {
+.fullwidth .col-xs-12,
+.mainMenu .col-xs-12 {
     padding-left: 1.3rem;
     padding-right: 1.3rem;
 }
 
-.plainText, .textInformations, .fullwidth p {
+.plainText,
+.textInformations,
+.fullwidth p {
     line-height: 1.4em;
 }
 
 .template-1 .fullwidth .pos-one,
 .template-1-landing .fullwidth .pos-one {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .template-1 .backgroundColored {
     background-color: white !important;
 }
 
-.template-1 .fullwidth .pos-two, .template-1-landing .fullwidth .pos-two {
+.template-1 .fullwidth .pos-two,
+.template-1-landing .fullwidth .pos-two {
     position: relative !important;
 }
 
@@ -67,6 +71,22 @@
 .fullwidth .col-sm-6 {
     height: auto !important;
 }
+
+    /* ------------------------------------------- REORGANIZE LIBRARY */
+    .fullwidth .row {
+
+        display: block !important;
+        min-height: 0 !important;
+    }
+
+    .buttonLibrary {
+        display: none ! important;
+    }
+
+    .rowContent h6 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
 
 
 @media screen and (max-width: 700px) {
@@ -94,19 +114,21 @@
         top: 50px;
     } */
 
-    .mainMenu .pos-three { /* iglogo */
+    .mainMenu .pos-three {
+        /* iglogo */
         display: none;
-      }
+    }
 
-      .mainMenu .pos-four {
+    .mainMenu .pos-four {
         padding: 5px;
-      }
+    }
 
-    .menuHamburger, .mainMenu .pos-four {
+    .menuHamburger,
+    .mainMenu .pos-four {
         /* width: 100%; */
         height: 100%;
         /* background-color: slateblue; */
-        display: block !important;        
+        display: block !important;
     }
 
     .menuHamburger {
@@ -148,7 +170,7 @@
 
     #currentTab {
         display: block !important;
-      }
+    }
 
     .mainMenu .pos-one {
         display: none;
@@ -162,14 +184,12 @@
         display: none;
     }
 
-     /* ------------------------------------------- REORGANIZE LIBRARY */
-    .fullwidth .row {
-        /* flex-wrap: wrap; */
+    /* ------------------------------------------- REORGANIZE LIBRARY */
+    /* .fullwidth .row {
+
         display: block !important;
         min-height: 0 !important;
     }
-
- 
 
     .buttonLibrary {
         display: none ! important;
@@ -178,7 +198,7 @@
     .rowContent h6 {
         text-align: center;
         margin-bottom: 50px;
-    }
+    } */
 
     /* .template-1 .backgroundColored {
         background-color: white !important;
@@ -197,7 +217,7 @@
         height: auto !important;
     } */
 
-/*
+    /*
     .fullwidth .row .pos-one {
         order: 2;
     }
@@ -252,16 +272,16 @@
       } */
 
 
-      /* //////////////// VIDEO MEDIA & documents  */
-      .template-video {
+    /* //////////////// VIDEO MEDIA & documents  */
+    .template-video {
         position: relative;
         top: 50px;
-      }
+    }
 
 
-      .container.mediaAndDocu .row {
-          display: none;
-      }
+    .container.mediaAndDocu .row {
+        display: none;
+    }
 
 
 }
