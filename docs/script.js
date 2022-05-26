@@ -23,7 +23,7 @@ window.onload = function () {
     accordionMenu();
     createArrows();
     changeTemplate1();
-    getSetCurrentTab();
+    // getSetCurrentTab();
     makeStickyPossible();
 }
 
