@@ -5,7 +5,7 @@
     transition: top 1s ease-in-out;
 }
 
-.homepage img {
+iframe {
     height: 100vh !important;
     object-fit: cover;
 
@@ -23,6 +23,11 @@ body {
 
 .panel-3col-stacked {
     overflow: visible !important;
+}
+
+.panel-3col-stacked-limiter {
+    width: 100vw;
+    height: 100vh;
 }
 
 .container.mainMenu span {
