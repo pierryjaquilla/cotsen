@@ -23,11 +23,12 @@ body {
 
 .panel-3col-stacked {
     overflow: visible !important;
+    padding: 0px !important;
 }
 
-.panel-3col-stacked-limiter {
-    width: 100vw;
-    height: 100vh;
+.panel-3col-stacked-limiter, .panel-panel, .panel-pane, .general-content-w-sidebars, .general-content-primary {
+    width: 100vw !important;
+    height: 100vh !important;
 }
 
 .container.mainMenu span {
