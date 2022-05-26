@@ -44,7 +44,14 @@ function loadStyles() {
     console.log("Tibor: loading styles");
     var localStyles = ["https://localhost:8888/docs/style.css", "https://localhost:8888/docs/mediaQueryMax840.css"];
     var remoteStyles = ["https://pierryjaquilla.github.io/cotsen/style.css", "https://pierryjaquilla.github.io/cotsen/mediaQueryMax840.css"];
+    if (window.location.href.includes("homepage-content")) {
+        localStyles.push("https://localhost:8888/docs/styleHomepage.css");
+        remoteStyles.push("https://pierryjaquilla.github.io/cotsen/styleHomepage.css");
+    }
+
     var isRemote = jQuery.cookie('local') == null;
+
+    // load a special one for the 
 
     console.log("Is remote is " + isRemote);
     console.log(jQuery.cookie('local'))
