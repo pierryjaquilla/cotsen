@@ -19,13 +19,8 @@ console.log("Tibor: Script without cache loaded");
 
 window.onload = function () {
     console.log("Tibor: Window onload happened");
-    // Load the styles depending on localhost or not
 
-// <link href="https://pierryjaquilla.github.io/cotsen/mediaQueryMax840.css" rel="stylesheet" />
-// <link href="https://pierryjaquilla.github.io/cotsen/style.css" rel="stylesheet" />
-// <link href="http://localhost:8888/docs/style.css" rel="stylesheet" />
-// <link href="http://localhost:8888/docs/mediaQueryMax840.css" rel="stylesheet" />
-
+    loadStyles();
     menuOpenCloses();
     changeColorBackgroundMedia();
     openLibrary();
@@ -35,6 +30,22 @@ window.onload = function () {
     changeTemplate1();
     // getSetCurrentTab();
     makeStickyPossible();
+}
+
+function injectStyle(url) {
+    var styleEl = document.createElement("link");
+    styleEl.href = url + "?ts=" + new Date().getTime();
+    styleEl.rel = 'stylesheet';
+    document.getElementsByTagName("head")[0].appendChild(styleEl);
+}
+
+function loadStyles() {
+    var localStyles = ["http://localhost:8888/docs/style.css", "http://localhost:8888/docs/mediaQueryMax840.css"];
+    var remoteStyles = ["https://pierryjaquilla.github.io/cotsen/style.css", "https://pierryjaquilla.github.io/cotsen/mediaQueryMax840.css"];
+    var isRemote = typeof jQuery.cookie('local') === 'undefined';
+    var stylesToLoad = isRemote ? remoteStyles : localStyles;
+
+    stylesToLoad.forEach(styleUrl => injectStyle(styleUrl)); 
 }
 
 function makeStickyPossible() {
