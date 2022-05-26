@@ -14,8 +14,18 @@ if (document.location.pathname == "/") {
     window.location.href = "https://cotsen.drupal.gwu.edu/homepage-content";
 }
 
+console.log("Tibor: Script without cache loaded");
+
 
 window.onload = function () {
+    console.log("Tibor: Window onload happened");
+    // Load the styles depending on localhost or not
+
+// <link href="https://pierryjaquilla.github.io/cotsen/mediaQueryMax840.css" rel="stylesheet" />
+// <link href="https://pierryjaquilla.github.io/cotsen/style.css" rel="stylesheet" />
+// <link href="http://localhost:8888/docs/style.css" rel="stylesheet" />
+// <link href="http://localhost:8888/docs/mediaQueryMax840.css" rel="stylesheet" />
+
     menuOpenCloses();
     changeColorBackgroundMedia();
     openLibrary();
