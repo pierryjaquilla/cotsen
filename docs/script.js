@@ -41,6 +41,7 @@ function injectStyle(url) {
 }
 
 function loadStyles() {
+    console.log("Tibor: loading styles");
     var localStyles = ["http://localhost:8888/docs/style.css", "http://localhost:8888/docs/mediaQueryMax840.css"];
     var remoteStyles = ["https://pierryjaquilla.github.io/cotsen/style.css", "https://pierryjaquilla.github.io/cotsen/mediaQueryMax840.css"];
     var isRemote = typeof jQuery.cookie('local') === 'undefined';
