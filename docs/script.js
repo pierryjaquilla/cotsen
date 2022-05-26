@@ -37,6 +37,7 @@ function injectStyle(url) {
     styleEl.href = url + "?ts=" + new Date().getTime();
     styleEl.rel = 'stylesheet';
     document.getElementsByTagName("head")[0].appendChild(styleEl);
+    console.log("Tibor: Load style " + url); 
 }
 
 function loadStyles() {
