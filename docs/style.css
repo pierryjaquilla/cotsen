@@ -253,8 +253,9 @@ div.fullMenu p > a > span.testimonial-light {
 .blueFooter {
   max-width: 100%;
   width: calc(100% - 30px);
-  bottom: 43px;
   position: absolute;
+  bottom: 0px;
+  padding-bottom: 1.5rem;
 }
 
 .blueFooter .blue-boxes-divider {
