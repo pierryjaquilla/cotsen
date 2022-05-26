@@ -45,6 +45,7 @@ function loadStyles() {
     var localStyles = ["https://localhost:8888/docs/style.css", "https://localhost:8888/docs/mediaQueryMax840.css"];
     var remoteStyles = ["https://pierryjaquilla.github.io/cotsen/style.css", "https://pierryjaquilla.github.io/cotsen/mediaQueryMax840.css"];
     if (window.location.href.includes("homepage-content")) {
+        jQuery(".pane-block-11").remove();
         localStyles.push("https://localhost:8888/docs/styleHomepage.css");
         remoteStyles.push("https://pierryjaquilla.github.io/cotsen/styleHomepage.css");
     }
