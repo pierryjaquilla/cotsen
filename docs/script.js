@@ -1,13 +1,13 @@
 
-var cssFile = document.createElement('link');
-cssFile.rel = 'stylesheet';
-cssFile.href = "http://localhost:8888/docs/style.css";  // or path for file {themes('/styles/mobile.css')}
-document.body.appendChild(cssFile); // append css to body element, normally should be head
+// var cssFile = document.createElement('link');
+// cssFile.rel = 'stylesheet';
+// cssFile.href = "http://localhost:8888/docs/style.css";  // or path for file {themes('/styles/mobile.css')}
+// document.body.appendChild(cssFile); // append css to body element, normally should be head
 
-var cssFile2 = document.createElement('link');
-cssFile2.rel = 'stylesheet';
-cssFile2.href = "http://localhost:8888/docs/mediaQueryMax840.css";  // or path for file {themes('/styles/mobile.css')}
-document.body.appendChild(cssFile2); // append css to body element, normally should be head
+// var cssFile2 = document.createElement('link');
+// cssFile2.rel = 'stylesheet';
+// cssFile2.href = "http://localhost:8888/docs/mediaQueryMax840.css";  // or path for file {themes('/styles/mobile.css')}
+// document.body.appendChild(cssFile2); // append css to body element, normally should be head
 
 
 if (document.location.pathname == "/") {
