@@ -2,6 +2,10 @@
 
 ## Useful commands
 
+```
+http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key -p 8888
+```
+
 ### Start parcel in dev mode
 
 ```

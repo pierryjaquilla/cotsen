@@ -4,6 +4,10 @@ body {
   /* overflow-x: hidden; */
 }
 
+.mean-remove {
+  display: inline !important;
+}
+
 .pane-title {
   display: none;
 }
