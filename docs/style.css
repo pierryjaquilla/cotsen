@@ -153,7 +153,7 @@ nav#main-nav {
 }
 
 .mainMenu span {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .mainMenu a > span {
@@ -192,7 +192,7 @@ div.fullMenu p > a > span.testimonial-light {
   font-family: 'Avenir Next Cyr W00 Light';
   text-align: left;
   text-transform: uppercase;
-  color: #033c5a;
+  color: black;
   margin-top: 0.5em;
 }
 
@@ -281,7 +281,7 @@ a,
   text-decoration: none;
   color: black;
   font-family: "Avenir Next Cyr W00 Light", Helvetica, Arial, sans-serif !important;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 a:hover,
@@ -327,7 +327,7 @@ hr {
   font-size: 1.5rem;
 }
 
-.template-1,
+
 .template-1-landing {
   width: 100vw;
   height: 100vh;
@@ -336,6 +336,11 @@ hr {
   bottom: 0px;
   overflow-x: hidden;
 }
+
+.template-1 {
+
+}
+
 
 .template-1 .container {
   position: relative;
@@ -727,4 +732,62 @@ h5 {
 
 .unsticky {
   display: none !important;
+}
+
+
+.tibor__submenu {
+  margin-top: 50px;
+  display: flex;
+  margin-top: 50px;
+  display: flex;
+  max-width: 900px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: whitesmoke;
+  z-index: 10000;
+  position: sticky;
+  top: 50px;
+}
+
+.template-1 p {
+  font-size: 1.3rem;
+  line-height: 1.4em;
+}
+
+.plainText, .textInformations, .fullwidth p {
+  line-height: 1.4em;
+}
+
+.testimonial-light {
+  color: black !important;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: black;
+}
+
+.animation-slideIn {
+  animation-duration: 0.6s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+.template-1 img {
+  
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
