@@ -748,12 +748,12 @@ h5 {
   justify-content: space-evenly;
   align-items: center;
   background-color: whitesmoke;
-  z-index: 10000;
+  z-index: 9;
   position: sticky;
   top: 50px;
 }
 
-.template-1 p {
+.template-1 p, .template-1 ul, .template-1 li {
   font-size: 1.3rem;
   line-height: 1.4em;
 }
@@ -771,9 +771,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .animation-slideIn {
-  animation-duration: 0.6s;
+  animation-duration: 1.2s;
   animation-name: slidein;
-  animation-iteration-count: infinite;
 }
 
 .template-1 img {
@@ -790,4 +789,14 @@ h1, h2, h3, h4, h5, h6, p {
     opacity: 1;
     transform: translateY(0px);
   }
+}
+
+template-1 {
+  max-width: 886px;
+}
+
+.marketing-text {
+  font-size: 0.9375rem !important;
+  line-height: 1.28125rem !important;
+  color: black !important;
 }
