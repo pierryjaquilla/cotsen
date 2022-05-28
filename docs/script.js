@@ -50,8 +50,9 @@ function setupIntersectionObserver() {
     });
   }
 
-  const targets = document.querySelectorAll(".template-1 img");
-
+  var targets = document.querySelectorAll(".template-1 img");
+  targets.shift();
+  
   var observer = new IntersectionObserver(handleIntersection, options);
   
   targets.forEach(target => observer.observe(target));

@@ -734,23 +734,23 @@ h5 {
   display: none !important;
 }
 
-
 .tibor__submenu {
   margin-top: 50px;
   display: flex;
   margin-top: 50px;
   display: flex;
-  max-width: 900px;
-  width: 900px;
+  /*max-width: 900px;
+  width: 900px;*/
   margin-left: auto;
   margin-right: auto;
   height: 50px;
   justify-content: space-evenly;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: white;
   z-index: 9;
   position: sticky;
   top: 50px;
+  margin-bottom: 0px;
 }
 
 .template-1 p, .template-1 ul, .template-1 li {
@@ -791,12 +791,26 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
-template-1 {
+.template-1 {
   max-width: 886px;
+  margin-top: 0px !important;
 }
 
 .marketing-text {
   font-size: 0.9375rem !important;
   line-height: 1.28125rem !important;
   color: black !important;
+}
+
+strong > a {
+  font-weight: bold !important;
+}
+
+.container strong > a {
+  font-weight: bold !important;
+  /* -webkit-text-stroke: 0.01px black;*/
+}
+
+a:hover {
+  color: gray;
 }
