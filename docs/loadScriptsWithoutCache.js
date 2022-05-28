@@ -7,7 +7,7 @@ if (!loaded) {
 
     var scr = document.createElement("script");
     var isRemote = jQuery.cookie("local") == null;
-    var prefix = isRemote ? "https://pierryjaquilla.github.io/cotsen/" : "https:localhost:8888/";
+    var prefix = isRemote ? "https://pierryjaquilla.github.io/cotsen/" : "https://localhost:8888/";
 
     scr.src = prefix + "script.js" + "?ts=" + new Date().getTime();
     document.getElementsByTagName("head")[0].appendChild(scr);
