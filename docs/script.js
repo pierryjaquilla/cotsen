@@ -51,11 +51,13 @@ function setupIntersectionObserver() {
   }
 
   var targets = document.querySelectorAll(".template-1 img");
-  targets.shift();
-  
+
   var observer = new IntersectionObserver(handleIntersection, options);
   
-  targets.forEach(target => observer.observe(target));
+  targets.forEach((target, i) => {
+      if (i == 0) return;
+      observer.observe(target)
+  });
 
   window.observer = observer;
 }
