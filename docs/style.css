@@ -735,9 +735,9 @@ h5 {
 }
 
 .tibor__submenu {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   /*max-width: 900px;
   width: 900px;*/
@@ -864,8 +864,7 @@ a:hover {
 }
 
 .template-1 blockquote > p {
-  font-family: "Avenir Next Cyr W00 Light", Helvetica, Arial, sans-serif !important;
-  font-weight: 100;
+  
   font-size: 1.75rem;
   line-height: 1.35;
   text-align: center;
@@ -908,9 +907,6 @@ p > span.marketing-text {
   height: unset !important;
 }
 
-.template-1 img:first-of-type {
-  width: 100% !important;
-}
 
 .template-1 figcaption > p {
   margin-top: 0.5625rem;
@@ -918,6 +914,8 @@ p > span.marketing-text {
   line-height: 1.28125rem !important;
   color: black !important;
   font-style: normal !important;
+  font-family: 'Avenir Next Cyr W00 Light';  
+  font-weight: 100;
 }
 
 a {
@@ -931,6 +929,7 @@ a {
 }
 
 .space-compensation {
+  display: none;
   /* height: 50px; */
   /* background-color: red; */
 }
