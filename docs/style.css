@@ -178,8 +178,8 @@ div.fullMenu p > a > span.testimonial-light {
 
 .container.mainMenu * img.igLogo {
   float: right;
-  height: 30px !important;
-  width: 30px !important;
+  height: 25px !important;
+  width: 25px !important;
   filter: brightness(0%);
 }
 
@@ -751,6 +751,7 @@ h5 {
   position: sticky;
   top: 50px;
   margin-bottom: 0px;
+  font-size: 1.3rem;
 }
 
 .template-1 p, .template-1 ul, .template-1 li {
@@ -907,6 +908,10 @@ p > span.marketing-text {
   height: unset !important;
 }
 
+.template-1 img:first-of-type {
+  width: 100% !important;
+}
+
 .template-1 figcaption > p {
   margin-top: 0.5625rem;
   font-size: 0.9375rem !important;
@@ -914,3 +919,29 @@ p > span.marketing-text {
   color: black !important;
   font-style: normal !important;
 }
+
+a {
+  font-size: inherit;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.space-compensation {
+  /* height: 50px; */
+  /* background-color: red; */
+}
+
+.template-1 {
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .template-1 {
+    padding-top: 60px;
+  }
+}
+
