@@ -906,3 +906,11 @@ p > span.marketing-text {
   width: unset !important;
   height: unset !important;
 }
+
+.template-1 figcaption > p {
+  margin-top: 0.5625rem;
+  font-size: 0.9375rem !important;
+  line-height: 1.28125rem !important;
+  color: black !important;
+  font-style: normal !important;
+}
