@@ -896,3 +896,13 @@ p > span.marketing-text {
   max-width: 1200px;
   margin-bottom: 1rem;
 }
+
+.template-1 img {
+  width: unset;
+  height: unset;
+}
+
+.container * img {
+  width: unset !important;
+  height: unset !important;
+}
