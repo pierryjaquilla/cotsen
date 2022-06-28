@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 840px) {
   /* ---------------------------------------FULLMENU */
   .fullMenu .col-copy {
@@ -132,7 +130,7 @@
   .mainMenu .pos-four div {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: white;
     display: block;
   }
 
