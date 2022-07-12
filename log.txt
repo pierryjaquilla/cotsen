@@ -1,0 +1,2120 @@
+commit 2a60eeca2c200c197d8061ceb34e8d4b6a14f477
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Tue Jun 28 10:44:29 2022 +0200
+
+    Changes
+
+commit 0e676d2c4a96a6e2ea547b8a72a3fa953b737e47
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Tue May 31 21:48:53 2022 +0200
+
+    New css
+
+commit d37ea95a369818cdf55b2db2fc479ee5cd0c26c0
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Tue May 31 21:31:24 2022 +0200
+
+    Changes CSS
+
+commit 8256d5a70c1b06cde4169b3945ff857a392464fb
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Tue May 31 16:32:24 2022 +0200
+
+    CSS overrides
+
+commit 3ac034dc32576b835f8e2796d0d92ab9408892f3
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Tue May 31 16:19:48 2022 +0200
+
+    CSS hack
+
+commit 02c31ab1af9b804d7ee3896993dc7811ab433ef8
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Tue May 31 15:01:39 2022 +0200
+
+    New css
+
+commit a9ae4c19957eb26f6cd9ac849ec928c8cc9504da
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Sun May 29 21:38:25 2022 +0200
+
+    new css
+
+commit f918cd1e4a1005420741817ea039d6e5dc27ea5f
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Sun May 29 00:24:47 2022 +0200
+
+    Style changes
+
+commit f3a82beb3ddd99775e9cabd635e829c8a3587f01
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Sat May 28 23:54:43 2022 +0200
+
+    Quickfix
+
+commit 3f7e2a0a41349bdda991919aeef43344777b74c1
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Sat May 28 22:15:24 2022 +0200
+
+    Fix link
+
+commit 2c0179d3fa82e68075a6ee9d35a3efbad7dfb558
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Sat May 28 22:08:32 2022 +0200
+
+    Quickfix
+
+commit a090d282271ac49e760d73fe1e950578deb8d3a3
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Sat May 28 22:06:35 2022 +0200
+
+    Quickfix
+
+commit 3a8fbd75ff5c8988d2bc8fb345471e598ba416dc
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Sat May 28 21:58:10 2022 +0200
+
+    Load from local
+
+commit f92b577a4c1d1d72e8bc44e11a3717621babe178
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Fri May 27 11:56:17 2022 +0200
+
+    Fix dissapearing menu
+
+commit baecf80bb5f81f39c3b5fb27aa1ae8fca796e6b3
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Fri May 27 11:48:58 2022 +0200
+
+    Trying to load scripts only once
+
+commit 9141668863e728158965d70df2d95d9e376a31ac
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 18:43:50 2022 +0200
+
+    Fix footer spacing
+
+commit 062384a023825c48ef73ba22c597be880548e81e
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 18:40:41 2022 +0200
+
+    Hack fix homepage
+
+commit 86db57843f2360a04af8affd725603967ec58fa5
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 18:26:36 2022 +0200
+
+    Menu styles update
+
+commit 08b68fee215abb2552333f4f8638910e1ab07dce
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 17:22:46 2022 +0200
+
+    Load homepage css dynamically
+
+commit 76fe64ec85af78894fc925ce13115dc64f1ca885
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 17:04:53 2022 +0200
+
+    Debug
+
+commit 48fee8075db1c5e3c5d51d16a6be365e8a3c4be7
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 16:16:43 2022 +0200
+
+    Cookie fix
+
+commit 971ec0ddc3343ff9fa65effb70fa2d5ca45c541e
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 16:13:54 2022 +0200
+
+    Debug
+
+commit f79f79ae6c333ce7d56e2e0799786996e17f4a8e
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 16:11:28 2022 +0200
+
+    Debug
+
+commit 8725b3ba54f4f07020bfd745c0450d682194a7d3
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 16:05:56 2022 +0200
+
+    Load styles without cache
+
+commit 08d794ba8adf186a6e4a788aed356785910cd52d
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 15:53:35 2022 +0200
+
+    Load script.js without cache
+
+commit 4acc48c8c1135bc5fcd8c57f7ffd39536acb1572
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Thu May 26 14:20:32 2022 +0200
+
+    Test commig
+
+commit 39a2ba88f12c37dd08651bb1f8d284d5a1a8371d
+Author: Pierry Jaquillard <you@example.com>
+Date:   Thu May 26 10:02:43 2022 +0200
+
+    error line 63
+
+commit 934dcfb71ae77c5dc2778b1be8c3e85819172729
+Author: Pierry Jaquillard <you@example.com>
+Date:   Thu May 26 09:56:56 2022 +0200
+
+    kjh
+
+commit 94404a77e35548aa2779c8283223f788f268ac3a
+Author: Pierry Jaquillard <you@example.com>
+Date:   Thu May 26 09:36:47 2022 +0200
+
+    npm http-server
+
+commit 133f18a48c0fce173b2dc9cb9d9a648b17a5fb3e
+Author: Pierry Jaquillard <you@example.com>
+Date:   Thu May 26 09:22:32 2022 +0200
+
+    fjdshkdjhf
+
+commit a36ccaeb13235e54f4ca5eda3352de09668dbbcc
+Author: Pierry Jaquillard <you@example.com>
+Date:   Thu May 26 09:19:07 2022 +0200
+
+    home p
+
+commit 6c4882ce466cbc20497b769764ef3a9bffe85952
+Author: Pierry Jaquillard <you@example.com>
+Date:   Thu May 26 09:15:24 2022 +0200
+
+    homep
+
+commit 7468a6e87e168b215740577d7d400c254c072b85
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Apr 4 17:38:11 2022 +0200
+
+    size font
+
+commit 5c8f58fcaeb47a12fad6096471c5bd33da652594
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Apr 4 17:24:44 2022 +0200
+
+    h6 fix
+
+commit a4299ef05f9cddcbc83cda6a17d93f321a8deae1
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Apr 4 17:17:03 2022 +0200
+
+    img fix
+
+commit ced700d1b90a6a1d1837bf4ea77d6580cf29b99c
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Apr 4 16:29:21 2022 +0200
+
+    fixxxx
+
+commit 6bb6baf1e76ca006ebf97cd595a84b6d01782a79
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Apr 4 11:40:33 2022 +0200
+
+    fix col
+
+commit 460f983bc2d9f32b0e78ab88fadd7393a257676d
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Apr 4 11:17:01 2022 +0200
+
+    fix col
+
+commit 0cf421d71b629e659b0a4db17f8a3bc35418d865
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Apr 4 11:03:36 2022 +0200
+
+    fix one col
+
+commit 630d584ab5374732a0e682ec472564867e9cf81f
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Apr 4 10:49:24 2022 +0200
+
+    on col
+
+commit a3357b1aa126bfbd33855b07f3f5db32f656ef24
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Apr 4 10:43:21 2022 +0200
+
+    change on column
+
+commit c2abad95c991fb29385e5117f3c75e9e9bfa8993
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Mar 14 16:11:16 2022 +0100
+
+    submenu
+
+commit f6bd92f267e656b7746f2dc224d4bca6eb2a197e
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Mar 14 15:34:17 2022 +0100
+
+    submenu
+
+commit b78d542fb1f89af62e5a757b0897eaf765074ede
+Author: Pierry Jaquillard <you@example.com>
+Date:   Mon Mar 14 15:30:40 2022 +0100
+
+    test
+
+commit edfc1acab6ed412e15406367b39ab0f71f0068db
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Mar 1 18:12:42 2022 +0100
+
+    update
+
+commit ad800dd312e1df626d6a46a11c0624561294f35d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Mar 1 15:31:30 2022 +0100
+
+    font sizes
+
+commit 83f52a2be949da18313263bfada4289c5c1507bb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Mar 1 15:10:32 2022 +0100
+
+    sous menu
+
+commit f6089ee312c098635e59d1b23786f1dbe68ea4b8
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Mar 1 15:00:29 2022 +0100
+
+    zindex
+
+commit fd6d42bef69c4452a90b1af162573ffdf0ede6fa
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Mar 1 11:11:27 2022 +0100
+
+    current tab
+
+commit 8e46f64a51ce711109c2271abfd0100b33cc4510
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Feb 28 11:37:30 2022 +0100
+
+    update
+
+commit 5df11c91717fb5979d5bbbc47f4905a440a1e583
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Feb 28 11:08:45 2022 +0100
+
+    tabs
+
+commit 549966e803c438d0680a282e248507e2c740ed74
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Feb 14 12:07:26 2022 +0100
+
+    up css
+
+commit c7631afa65d030122fffdcba8c609341fc0959c8
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Feb 14 11:49:13 2022 +0100
+
+    up css
+
+commit f59cb3b6fb69e038ee6e6edae16fa21d1ba1435b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Feb 14 11:40:43 2022 +0100
+
+    up css
+
+commit 80ff1a2fb18c27e670c6e1f7aab2d6747bd9a7d4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 15:37:39 2022 +0100
+
+    fix css
+
+commit 2b3aab455f3ea13f0d10f586730ee7c2c6d7fe40
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 15:36:52 2022 +0100
+
+    fix css
+
+commit cbb29c0d4e2a3add837a7ce944b427ed5da06ce6
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 15:30:02 2022 +0100
+
+    fix css
+
+commit 6aea4ec28245501ecc64776d77d2300a93a14d05
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 15:27:40 2022 +0100
+
+    fix css
+
+commit f866abe0f43f0f28d13974f3fdc908ca3846171a
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 15:25:10 2022 +0100
+
+    up css
+
+commit 60c6a7cda9157a70e36038dee50219ebb68fadcb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 15:00:06 2022 +0100
+
+    up css
+
+commit 50ec4b2acef15f8b7ad77b55e442d884d3977d59
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 14:40:00 2022 +0100
+
+    fix js
+
+commit 98d85689204513abde35c2dd22a5adc9914b0d86
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 14:36:03 2022 +0100
+
+    fix js
+
+commit 92b1ea8a873fe4c9195f34476ed658ca2d2ccc07
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 14:25:15 2022 +0100
+
+    button
+
+commit 0bc003cdb63eafa32cf54ce178689617a07e3f11
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 11:51:03 2022 +0100
+
+    update css
+
+commit cc53f5f2124a2e5c97e39d81424821880d5b3e2a
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 11:43:07 2022 +0100
+
+    fix js
+
+commit 7491a7dbcf4ca0bf35903ad2da2ca239c1f80617
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 11:39:36 2022 +0100
+
+    up js
+
+commit 43230c8623d6e90b4cfe133f1f4f894bb7e3c303
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 10:58:04 2022 +0100
+
+    fix js
+
+commit 5c5febc2bf152e89fce511f58c79b50a55690044
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 10:55:52 2022 +0100
+
+    js
+
+commit 6c360fb56ae56135bf33181966bcbced9b575d33
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 10:54:08 2022 +0100
+
+    fix js
+
+commit 520dcecc74511004d9fa80dce429164b0e5f8aa4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Feb 11 10:52:01 2022 +0100
+
+    fix js
+
+commit 21137e9fa54960a8cef176cd2d4247163a300aeb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 16:03:38 2022 +0100
+
+    up js
+
+commit dbb9d18d02df0f784d83da8559f26edd81fb5008
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 16:02:06 2022 +0100
+
+    up js
+
+commit d2f6a0bbb14af6c116b4d5fa95186ef939062c6d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 15:54:40 2022 +0100
+
+    js
+
+commit e2a3d78e4289920e2af1893fdcb8d8cdd2ad847c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 15:42:13 2022 +0100
+
+    update css
+
+commit 3aa53ebbc9abe2dd3157b3cbc882c3519863912c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 15:34:15 2022 +0100
+
+    css
+
+commit d25a4a6489df9385483fa39e69e0892d17a0799b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 15:33:06 2022 +0100
+
+    css
+
+commit fa076c560dc18ab7c2cf721a420213f30ac8c3f0
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 14:55:06 2022 +0100
+
+    fsdf
+
+commit 9efc137f9c740c4ee86d6387d6a838ec81b55a68
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 14:54:42 2022 +0100
+
+    overflow-x: hidden;
+
+commit 2e9c11bcea8e67e31da344d1fe68afc0e628919b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 14:20:03 2022 +0100
+
+    up css
+
+commit d856dfcc9d30430608bc9ec3a7a638099123c50c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 14:19:33 2022 +0100
+
+    fix css
+
+commit 0ccf46fba080e203981982e69bede5299abe1237
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Feb 10 14:14:46 2022 +0100
+
+    vix css
+
+commit eab0bbdd78a094fa7eeec7b176ea7609d26b3588
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 16:50:01 2022 +0100
+
+    css
+
+commit f02b3b6f01565f7be3c43feda08ffe6c56ba7839
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 16:47:11 2022 +0100
+
+    up css
+
+commit 2102d9c382c707d83d0e7cf1ecf3d34bc3bfa102
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 16:46:32 2022 +0100
+
+    up css
+
+commit 6cca9ee3e7c86ad2cf2e03d58129377857b982f7
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 16:42:36 2022 +0100
+
+    fix js
+
+commit a3ad7977b4e6a7aaddeca03321d4af9b09f0cf3e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 16:40:30 2022 +0100
+
+    fix js
+
+commit 0b1d89a0c8c030bae75f7984e9f8910f051d773c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 16:37:40 2022 +0100
+
+    replaceThisByThat
+
+commit 482fff327d2308b3c9905fd20b8d51d6c44460d8
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 16:14:06 2022 +0100
+
+    up css
+
+commit e6c070f3b2c19bbeb3fd8d1f5b5bb41966583ceb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 13:03:02 2022 +0100
+
+    up media
+
+commit 071396c548501d7f4f4a2ca0ab0bec3b65724af2
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 12:50:15 2022 +0100
+
+    fix css
+
+commit 3893de4e57150e03d9d58a7ab0594b4ad3354faf
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 12:45:31 2022 +0100
+
+    up css
+
+commit 1c80c49b2f962bb3933d0cf2ecc41faf6eaabcac
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 12:41:22 2022 +0100
+
+    up js
+
+commit ea7bc1db7391c0f3f4cc432c29e9aca79d4682bb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 12:35:40 2022 +0100
+
+    update css
+
+commit eba2f5582b71ec4b31e09c98ef0dba3a6e42b232
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 12:15:50 2022 +0100
+
+    fix js
+
+commit cb4e6aff1e6b6436351e7150b8d4fca1506feaaf
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 12:14:49 2022 +0100
+
+    fix css
+
+commit 4f79ebe48fab24914c1712230fa70e3ca8f8503a
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 12:13:28 2022 +0100
+
+    fix js
+
+commit a60dae60927577658ca1ebcb1f0b9f3280034519
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 12:02:12 2022 +0100
+
+    change js
+
+commit 738ee280593b689365c77cc25fbadb23f45597a3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 12:00:41 2022 +0100
+
+    fixesss
+
+commit 97550e6ca7782e273c7db6e129d524ffa92a4034
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 11:58:15 2022 +0100
+
+    fix
+
+commit 94546d92fe9776bfc6e3556c113cb1598d649124
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 11:57:28 2022 +0100
+
+    up
+
+commit 3098a1af1d1663326eaa6862e0192aed65d409cb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 9 11:57:05 2022 +0100
+
+    add currentTab
+
+commit 6805c50a11245593a9ee2b3e28b49ae20c3b9cc0
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 2 15:37:52 2022 +0100
+
+    ndf
+
+commit 41f9151ee2c7c183467f41a8e72c7913ae9b502d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Feb 2 12:56:06 2022 +0100
+
+    fixes
+
+commit f8e1336af40a2aaeeb878ab805b8131fac07b555
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Feb 1 16:55:52 2022 +0100
+
+    aidid
+
+commit 74b01a8cf1b02235b76a37e101855f621fcdbe5e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Feb 1 16:30:30 2022 +0100
+
+    fix js
+
+commit 01bbcd7ae6b3f1e34d81156ed85f621ed7e945f7
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Feb 1 16:27:39 2022 +0100
+
+    fix js
+
+commit bc8a6eda23e92b885c0ff99b465e5263b59031f6
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Feb 1 16:26:04 2022 +0100
+
+    update
+
+commit 1130801a92c0797fd926c11f7cb882d12c5b295b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Feb 1 16:24:58 2022 +0100
+
+    update js
+
+commit 3d259d57376da495169a92ce31ca3079c25679b4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Feb 1 16:10:14 2022 +0100
+
+    change menu
+
+commit 63e1745eeddbfd29af90027c439f715f51e803d4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 18:03:48 2022 +0100
+
+    shith ihieish i
+
+commit 46e68d4f9181aa39fe253e26ded66d9dedb5353c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 18:01:20 2022 +0100
+
+    dhsdofis
+
+commit b010e148107d75a7510475ce8cd30b07b9e35a0c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 17:06:23 2022 +0100
+
+    menu hamburger
+
+commit 366986916e6dc8f33d8967c3a6ea194ca45e42a6
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 12:12:12 2022 +0100
+
+    chisuhs
+
+commit e6e29f5e8cf524fdbdbb4a0ac1ade966b5d1f384
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 11:08:25 2022 +0100
+
+    menu lol
+
+commit 21863674980a70f563d96e842bd8f20b8c022679
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 10:19:26 2022 +0100
+
+    fucking shit
+
+commit b6a20cfeb16e6b5be005e3858f30eaa872a49028
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 10:10:27 2022 +0100
+
+    chaiujss
+
+commit 65fd52601b323b6cd51773b4245bce6131f612ba
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 10:05:06 2022 +0100
+
+    chan
+
+commit 35dca52920914609f9ba057796f4e81cbe54662c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 10:00:28 2022 +0100
+
+    add media css
+
+commit cd9f3b1a8d19130975b58156710016a21fc90f4a
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 31 09:59:17 2022 +0100
+
+    changed media q
+
+commit fd7fddcc72ef6ad14ad6395df3cefd705238d4fc
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 17:51:40 2022 +0100
+
+    miedjaij
+
+commit 004c1da366ed7c6b1c0c0723a1af416e9aa290a3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 17:48:10 2022 +0100
+
+    display blocc
+
+commit 9fe538bab87c7c9692095c83157125a5f3713b38
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 17:44:12 2022 +0100
+
+    redo library
+
+commit 3f2d91bc9b7a42b5951b0c891523c9f0af13b8dc
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 17:32:22 2022 +0100
+
+    textinfo media query
+
+commit 3f3e0ec1084ac839cfd56b4651bb2442d792912f
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 17:29:32 2022 +0100
+
+    remove textInfo
+
+commit 6c7539c9b4bc4537c114fdab92ff17e17f51dc56
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 11:09:49 2022 +0100
+
+    fix color background
+
+commit 3cf753235078cdbce5976495c2ab3d71f72f2f23
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 10:49:07 2022 +0100
+
+    fix library
+
+commit c7ba70a19856fb593ab39733913701a66b90f69d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 10:45:45 2022 +0100
+
+    colors
+
+commit e2ad6c6deaa0177b9ace1bdb79b37e3cb920e6b9
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 10:12:39 2022 +0100
+
+    library
+
+commit 7ca56f6ffe27600ebd348e2cf0e0a635b4cdc9b2
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 10:04:02 2022 +0100
+
+    dskughfkjhsd
+
+commit 24fc4a116f6325e06524c141dbd302b7615c2d23
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 09:53:06 2022 +0100
+
+    library changes
+
+commit dad8ced23c98dc3b32a3e38e21ac1dfa6c86d847
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 09:10:29 2022 +0100
+
+    pos
+
+commit 4cb672daaf85f4e09adcef64f702672594291ca3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Jan 27 08:44:47 2022 +0100
+
+    normal
+
+commit 684f960f65c0ee118fe0e0e043d75ef1cc070ff6
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Jan 26 14:20:13 2022 +0100
+
+    quickfix again
+
+commit 40ff7153d67dd7476bb983a1bd1d4ba955c31885
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Jan 26 14:10:41 2022 +0100
+
+    quick code fix
+
+commit 61f04708ff1e78625c48b39bb2b6d063c61d2181
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Jan 26 14:08:42 2022 +0100
+
+    style.js update
+
+commit 84c04b64924637a17d5a0cdccf6000f68c39a100
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 24 16:41:41 2022 +0100
+
+    open close library
+
+commit 791c66a60586f607c5ad0267b9fcb0a1399dd197
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Jan 24 15:24:05 2022 +0100
+
+    sticky style
+
+commit d8bf2434b562dbdce13f45dd3de17e58e54a6643
+Author: Tibor Udvari <tibor.udvari@icloud.com>
+Date:   Wed Jan 12 22:01:43 2022 +0100
+
+    Sticky fix attempt
+
+commit 8c8afb4ac4b8993bd5084d3356abfff070c66394
+Author: Tibor Udvari <tibor.udvari@ecal.ch>
+Date:   Wed Jan 12 09:56:05 2022 +0100
+
+    Update README.md
+
+commit 82a5658eebff0afdfd5a05655ec8cdcfa36a62c0
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 25 17:11:11 2021 +0200
+
+    size-font-line
+
+commit 12d1c28bf03f6c4ec059d20902bdf8346cafee58
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 25 17:02:57 2021 +0200
+
+    font-sizes
+
+commit eeb82d7b6b88d2d94d17e740ba2ad0d21fdd8aea
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 25 14:14:39 2021 +0200
+
+    hello
+
+commit 16eb4abfda44d171301b5f9a019feb68f8db6518
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 25 14:12:10 2021 +0200
+
+    append to
+
+commit 6713e843844f964627c259df54a4e05e7e95d7dc
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 25 12:06:29 2021 +0200
+
+    update js
+
+commit f2c992a059ac1cf2419984759c1c6595b297c2a4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 25 12:05:29 2021 +0200
+
+    fix
+
+commit 35fc80620f8fce2be87f7b822ca29ebeac602c8f
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 25 12:04:48 2021 +0200
+
+    try sticky
+
+commit bee4cc64dd6f629cfd96bc291d74d22e4cb57da4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 19 20:46:24 2021 +0200
+
+    fix
+
+commit 78def7df2c33a17f77ccb0a4a72d4f45cc20d6dd
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 19 16:39:06 2021 +0200
+
+    url
+
+commit 977ee9c9878a6ba20ca41bb1be745d61072ae91c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 19 15:19:37 2021 +0200
+
+    img visible!
+
+commit e695a202b2a998637a6cdc4e02aa9a83b40058e9
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 19 15:12:05 2021 +0200
+
+    body fullscreen
+
+commit 6f5ac1401fd67087c2f6ad36248111c1f373cd4c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 19 15:04:48 2021 +0200
+
+    fix arrays
+
+commit 126cbedc49c33df44c4d5f4b205ff1776bc6aadf
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 19 14:53:06 2021 +0200
+
+    fix create arrows
+
+commit 140f16b25d24c82bb2fbf06f68392ef9aee4a1e3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 19 14:42:01 2021 +0200
+
+    fix
+
+commit d2d3dc65d6ac6ac36ce550a7067b4ab7a4c65dfa
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 19 11:44:43 2021 +0200
+
+    arrow behavior
+
+commit 4a6bc60278587e0f77e8b31cbc8dcc0766a66d56
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 19 10:44:46 2021 +0200
+
+    arrows
+
+commit dcd5a7b929cce95b0e5a65c8b566b4298c69f40d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 18:02:54 2021 +0200
+
+    library
+
+commit 3a03fd7db2b430319cb7605bc8a9facdb34c0e3a
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 17:43:36 2021 +0200
+
+    library
+
+commit c9ef14d2508cf2aa4974273eb740498e47320d92
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 17:33:04 2021 +0200
+
+    fixes
+
+commit 6bad218d1963ce10babc5dcf4c2b6070e3afd844
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 17:29:27 2021 +0200
+
+    responsive library
+
+commit 2d4fa6acbff3f046494821f8535237e7a48772ae
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 16:41:29 2021 +0200
+
+    sizes tabs
+
+commit 42a4b90ac1f71f9e359a1cf7769e31771c17125b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 16:34:39 2021 +0200
+
+    fix
+
+commit 404109f1c473f7f2c53694561fc8a7797a87f07a
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 16:30:50 2021 +0200
+
+    responsive text
+
+commit c1e084a7d10a8b914d18cb5aa901eedad0706583
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 16:25:01 2021 +0200
+
+    fix menu
+
+commit c7abc9495c0554b37d7bd9acdda65cd106c1c6a4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 16:17:34 2021 +0200
+
+    fix menu
+
+commit 18d0ba10a36631704c6aa9a52e32cc9924591f21
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 11:51:43 2021 +0200
+
+    "fix"
+
+commit 7b04fe2bed800c40efb7d7eee32b3631afea72bc
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 11:40:22 2021 +0200
+
+    size fix
+
+commit cf21d55b4bde4f09d27f74403a064b22774d9862
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 11:38:30 2021 +0200
+
+    fix row
+
+commit 709c5ead885fea1290e64cd09c331751f776d751
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 11:21:19 2021 +0200
+
+    font size
+
+commit 99495470d375e08f78e7b2706caec355a49a0038
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 10:22:38 2021 +0200
+
+    size texts
+
+commit c908cc32d64c77b091146780e8905eeb2d4064eb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 09:47:11 2021 +0200
+
+    color white
+
+commit 51086ee5001ba12d217cf5d9795c6321ab83423b
+Merge: 91f80505 a7fe4e65
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 09:21:25 2021 +0200
+
+    Merge branch 'main' of https://github.com/pierryjaquilla/cotsen into main
+
+commit 91f805059a0d3e76507776f4057722defebeb618
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 18 09:21:10 2021 +0200
+
+    blue footer
+
+commit a7fe4e65a3ef11b1c0a1676d4470b5bf5e01eb6e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 18:26:49 2021 +0200
+
+    fix height
+
+commit 0ca92206d61c0a50f979a4cc5b72414bae37fbcf
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 17:47:54 2021 +0200
+
+    flex
+
+commit 5feaaa811e51aadf5b6e1c9ac9b182467bae075a
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 17:46:31 2021 +0200
+
+    fix
+
+commit dc90a0e5e56755d911f979ecade5f5503d8c72cb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 17:24:02 2021 +0200
+
+    fix
+
+commit c5ab855fd7ba25d5dd61adb3a215dedcc3690534
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 17:20:26 2021 +0200
+
+    fix
+
+commit c630fa14744fb15b60d30ff7570ce8d793c13397
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 16:06:07 2021 +0200
+
+    fix header
+
+commit 1d32b0d7db55bf50bd2c7edc3540623fbe5548a3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 15:59:55 2021 +0200
+
+    fix main menu
+
+commit cf655f0d2051b9cfc757597839e1fb065f86b80f
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 15:55:13 2021 +0200
+
+    cloud
+
+commit a9bcfb01d04417b3589ef2bf46d185136c675d72
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 14:30:09 2021 +0200
+
+    fix
+
+commit 0c45ee4765d1bc49ee54c7f990a743f06ccd59dc
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 14:29:26 2021 +0200
+
+    fix
+
+commit d0a2fa3c73cb853e06d142c5881fd9b719389c13
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 14:27:44 2021 +0200
+
+    test
+
+commit 53194f1334852aee3743d68086461f8c0ba0799d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 14:25:51 2021 +0200
+
+    done
+
+commit 3a0e60d4abfc0ff181ecac0a5831afd8802756ad
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 14:24:39 2021 +0200
+
+    cloe
+
+commit c42f78c5883cecde7ac8e383fb301171dbaa3a51
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 14:23:49 2021 +0200
+
+    clone
+
+commit 4f7ca27e696c0bd03b853d693e90a246de133dac
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 14:22:04 2021 +0200
+
+    clone
+
+commit bc7fcaa7acc4d43266318a32a808cace8baa16f3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 14:21:47 2021 +0200
+
+    clone
+
+commit 423f027b5853ce6d363f26c53a542ce61ab0ff3d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Oct 13 14:11:51 2021 +0200
+
+    kjhsdfjk
+
+commit f0de2dd3e5b0742b290dc77f44613337e2c40034
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 16:56:08 2021 +0200
+
+    fix
+
+commit 8c9b97fcd3688f24950c97347b3f4ae67015a7c3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 16:52:37 2021 +0200
+
+    menu
+
+commit cb5b292bf417080c8db15bff5d6d80ee73d52cea
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 16:47:28 2021 +0200
+
+    fix menu
+
+commit 9229ddb5aea734cf3ac41004742bf70697e93636
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 16:25:09 2021 +0200
+
+    kjdhskfjhdk
+
+commit e9ca9ecb9c8ed372f04223e66804da226da66a2f
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 15:32:58 2021 +0200
+
+    fix
+
+commit 9c955494a1ccf7de843d01374d0d433d804a1af3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 15:24:53 2021 +0200
+
+    fix
+
+commit ed20663aadc11ec005d6fbeafe5b78b8a8daf7b1
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:53:43 2021 +0200
+
+    fix
+
+commit afc3f60185affa109d3d22e8dc2fc1d930bc7bd9
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:49:29 2021 +0200
+
+    fjkdjl
+
+commit f1bbc55e0641d60c8d47d26a412030d5875b43f4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:49:06 2021 +0200
+
+    fix
+
+commit fc2a998718dfa49ac9f0be1994de37700e98898e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:46:32 2021 +0200
+
+    ahahahahaha
+
+commit eb08b3b48a4b697edf23c4a0fd74136fbb98d14b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:45:04 2021 +0200
+
+    fgdf
+
+commit e1177e125a7a1337e1e2d0eca160e2e512d38497
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:43:05 2021 +0200
+
+    fds
+
+commit 49cdf93c525da4c2c20605f108febbc0feaac6e6
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:40:47 2021 +0200
+
+    fsdjh
+
+commit cc4a75fb3968804596523572f7ac2f88fd7b1143
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:37:14 2021 +0200
+
+    fix
+
+commit 82f114468445177e15d1b885166eedfe1ec9f5ee
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:34:43 2021 +0200
+
+    fix
+
+commit 339aeca4b68085325bac509f54f0558ced681264
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:33:23 2021 +0200
+
+    fix
+
+commit cbc3b2793d959a1cdae8bf5902ee1830de85cba3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 14:31:16 2021 +0200
+
+    menu accordion
+
+commit d0898aa3cfda1659f4c8ab7f53ba0a20970c309d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 13:56:07 2021 +0200
+
+    media query
+
+commit 56a5eb048ddc019744ef281ade17405aec6e00db
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 11:34:38 2021 +0200
+
+    menu fix
+
+commit e56023478d204bd085493c3d2e95bc43144cc7ed
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 11:17:17 2021 +0200
+
+    update
+
+commit 9113dcf0308a3d03de1fcdf339f2fc908f513ed6
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 11:04:18 2021 +0200
+
+    anaim
+
+commit ea15f9817da687226b3257ee959480ccbd49039b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 11:03:30 2021 +0200
+
+    fix
+
+commit c5969980326615ac9f5b484cb694b6a331a73b77
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 11:03:13 2021 +0200
+
+    clos button
+
+commit 52c6a57088c7474ab55fec6a11034089eab9509c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 10:42:04 2021 +0200
+
+    fdisjoifj
+
+commit 60a787d89a39fb60919a79d0bdf517510e86ebeb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 12 10:37:38 2021 +0200
+
+    fdsds
+
+commit b4453113861a0a6ee9b91b5456ff4a25b281b41b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 17:29:26 2021 +0200
+
+    kuh
+
+commit 264dfd1f64b5a03ad82660175e7ab293a7f42a53
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 17:21:08 2021 +0200
+
+    fdf
+
+commit 7dbec8cb24fba6376cd4c23dde6dc8fe7bf887db
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 17:08:14 2021 +0200
+
+    hkjhjkjhhjkhkjhjhkhhkh
+
+commit bb6a7d649fc631c1e3dca3bc0e90ddf2384173d5
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 17:06:56 2021 +0200
+
+    ipuewhkjfsdnm,kuhé
+
+commit ce8b634ed9201adec8c91e9dcbe770ffd30993a2
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 17:04:44 2021 +0200
+
+    fix
+
+commit b0b5a170b5b4375a71c589847b7582dfd5c40b24
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:57:57 2021 +0200
+
+    dsf
+
+commit 2bdc8991c72b7d9af67852f02e1be1a2f5f32936
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:53:59 2021 +0200
+
+    fdksj
+
+commit 669ad581cc9e6e6fec4676611ee63110639558b3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:53:09 2021 +0200
+
+    csssssss
+
+commit 8169d96100fc8fa12b18d2e7a9fd27c5167316dc
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:46:24 2021 +0200
+
+    fix
+
+commit 0fc6a25a735849592507da44656f0fd186f63ad3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:45:35 2021 +0200
+
+    funciton
+
+commit 42af044a0d547a8088595e42a61ff4178cebd1ed
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:43:29 2021 +0200
+
+    oirwhgfédlsg
+
+commit 4545eb83a585391d95d98794620b42db85710d9b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:28:06 2021 +0200
+
+    test
+
+commit b3338ac8033ebb33377a2744a6cf805909b20b80
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:27:08 2021 +0200
+
+    fix
+
+commit 4cbb6e25de825eb141b074ceeede3763cc1bf393
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:24:13 2021 +0200
+
+    fix¨
+
+commit 8cc7be72e1389131d7e05e9307b587b00e779292
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:14:24 2021 +0200
+
+    fixxxxx
+
+commit 62c3dc13b67ee8909ebd343593d63e5b3e2f02c5
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:10:35 2021 +0200
+
+commit 8eebedfd545753d6dcab34a23a11b39c5ec72bb9
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:08:55 2021 +0200
+
+    fix fix fixxxxxxxx
+
+commit 0c161ce7371db97cf59bdc2446ad55c66cb0dd6f
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 16:06:31 2021 +0200
+
+    fix
+
+commit 810d90f4e126a84891316a262681c5872a7b91db
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 15:17:33 2021 +0200
+
+    fix
+
+commit 40d341cf7df067babf6ffd17a07a0258dc5f7eae
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 15:16:18 2021 +0200
+
+    fix
+
+commit 7b13b11aec049e7847e4b9283715d7643dab9f08
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 15:14:11 2021 +0200
+
+    fix
+
+commit a8d7b32888aecfdd461d7da38da612c5bf75ae5e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 15:11:29 2021 +0200
+
+    fix
+
+commit 10b0f88742769ac2c909ace2c06b4c1098009066
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 15:09:27 2021 +0200
+
+    fix
+
+commit 94de36b6476dff33bdcb330d09a523f7530280fb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 15:07:45 2021 +0200
+
+    fix
+
+commit c560d19cd1868ea7d14a0a379da75510ab6f13c5
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 15:06:54 2021 +0200
+
+    fix library
+
+commit c46f7e4837a1b963a68ace37bd3f3697a54df1b2
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 15:05:30 2021 +0200
+
+    js library
+
+commit d587d10aa7afc5d355b5d6b420a9a88f926276a0
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 12:41:39 2021 +0200
+
+    init
+
+commit 1e69ffb9a6e793a4f43104e844d4dd42a81609c8
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 12:22:58 2021 +0200
+
+    jquery library
+
+commit a90b51e980c41117590694287069db0023816cc2
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 12:21:35 2021 +0200
+
+    fix jQuery
+
+commit 29784ae912e0cfa6026acfef6609676f23685e9c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 12:12:45 2021 +0200
+
+    fix color
+
+commit fb7e9dd71429e12001f40c4c2406510404d34761
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 12:08:15 2021 +0200
+
+    fix colorBackground
+
+commit 8c8c2c6746d355052ff6cb47ed7a655cee66fb93
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 12:04:14 2021 +0200
+
+    creation library
+
+commit 7c778c4217076d3783bfae490f02393817278d90
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Oct 11 11:57:34 2021 +0200
+
+    quick fix
+
+commit e2a1412344604a25ccfa9cf97b4732ef52e7728c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 5 16:52:28 2021 +0200
+
+    undermenu important
+
+commit 06101829344ab482888e5bdb6e015e48049e1123
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 5 16:47:35 2021 +0200
+
+    underMenu
+
+commit 41d2898cbbdfdf2d9e90b5c135da0d3e16f06432
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 5 16:43:50 2021 +0200
+
+    fix
+
+commit 028755ab6f128115c0354ca416a14b40dc959346
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 5 16:42:58 2021 +0200
+
+    moreImages fix
+
+commit 833f8ed4cad1e28e44da63799defe8b59b5809d2
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Oct 5 15:31:09 2021 +0200
+
+    moreImages none
+
+commit c084e079e07998e0a3d2d2ce66f5f9965cb05c29
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 28 17:17:52 2021 +0200
+
+    margin logo
+
+commit f81f282b27d8e33f25cba9e7e377f62cc21df36d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 28 16:30:53 2021 +0200
+
+    updat button css
+
+commit 4110b34201f324452c65fff400c5375904c4e83b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 28 16:27:10 2021 +0200
+
+    button update
+
+commit 287d61dda0b468c942825bd5fa4e4f60460aa36a
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 28 12:13:57 2021 +0200
+
+    fix h3
+
+commit 4c29cb0b48bff9c174a3d2f9e1a4308125acbce4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 28 09:27:09 2021 +0200
+
+    add button library
+
+commit c909781cda715393a598586ff50bb59dd50170e7
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 23 16:30:50 2021 +0200
+
+    finish color
+
+commit bea7e25ebf987a350bdca2319f1405de57555a07
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 23 16:11:45 2021 +0200
+
+    fix
+
+commit 55e9fb0669cd1cc7b0732694b17bd780a4204446
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 23 16:10:54 2021 +0200
+
+    change get color
+
+commit b4b6589221eb42b9ccd67244e99375c696190278
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 23 16:06:33 2021 +0200
+
+    update getcolor
+
+commit 526e20a114d360aca3afe6e471b52a591f8cbe9a
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 23 16:05:46 2021 +0200
+
+    getcolor
+
+commit 6b8d7be6cce0ca9446e96572ee3518e5d11e4f9e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 23 15:32:53 2021 +0200
+
+    fix
+
+commit bf7f3a00b42123189f83e021de7e83c5dcfc78d2
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 15:29:08 2021 +0200
+
+    margins
+
+commit e15fc9efb2622f12ed5c96b1ce2f432cb29e15ee
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 14:43:52 2021 +0200
+
+    implement-landing
+
+commit fd15cffe897cd59b19be229b223ea63b3e92d00b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 14:26:08 2021 +0200
+
+    fixes
+
+commit 468fc4f31b4d38655a9e22543a071ba92e1afb0e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 14:19:38 2021 +0200
+
+    fixes
+
+commit 9cae68a6394cef0fc5decf74c33d0303c7302ac9
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 12:32:05 2021 +0200
+
+    collapse
+
+commit 5c5a7ced802963134bc13e92f955dfac06d4ef2c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 11:56:36 2021 +0200
+
+    padding
+
+commit e506c12cc167ae9c9469b5e3529a3facdbf9c083
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 11:45:57 2021 +0200
+
+    article issue
+
+commit cef65061835f07733dee6c789a5e5bda158be80c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 10:22:49 2021 +0200
+
+    menu row fix
+
+commit 576a4f2e7bd762c39cd149cfbbc30842dcda0a27
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 10:15:07 2021 +0200
+
+    margins row
+
+commit 904ad954d0bfbf34637aff4dbd71f8dbecbe24fd
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 10:12:36 2021 +0200
+
+    overflow-x: hidden
+
+commit 053e463a952f427ca63bf1422e9b893f15b8a0ce
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 10:09:44 2021 +0200
+
+    fullwidth
+
+commit 2b0878ad5bf32d6b91c660195de1cda495497bb4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 10:01:23 2021 +0200
+
+    menu fix
+
+commit d5632c686bf76c45a70460e8b37f07a8b649dcb9
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 09:48:34 2021 +0200
+
+    fix main menu
+
+commit 42081ba6c1ca62056b60b2dfdb1f973c9082cf64
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 09:37:09 2021 +0200
+
+    img cover
+
+commit e94e937f88023efb6dbf6817a0bb020de6b7e927
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 09:36:20 2021 +0200
+
+    img-template-1
+
+commit 5599ecf2d1f08f8f2bc1adf8457af31629ad32e3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 09:29:58 2021 +0200
+
+    image fix
+
+commit a8e548b7b9794b427988c4da6cb34e2b40eb3ca7
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 22 09:29:21 2021 +0200
+
+    image fix
+
+commit 2a5f8942686e8fce5a6164c23ccd083f8da76a34
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 21 17:45:53 2021 +0200
+
+    fix img
+
+commit dd567dc4311ed42a9fb0ccee4f387144ed8f4702
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 21 17:07:18 2021 +0200
+
+    content size fix
+
+commit 11f67bf9e43232795d88e7b112570cc879533bb6
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 21 16:44:57 2021 +0200
+
+    under menu about
+
+commit 4b7321d3479960cc945218ec861c997ed7fe539e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 21 11:18:44 2021 +0200
+
+    menu fixes
+
+commit 28813fe850baa85945a33ff969a46fb721a8bee0
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Sep 21 11:14:13 2021 +0200
+
+commit e2f044e2bfa2b5aaca3dd6de4758c39da6bed468
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 22:58:18 2021 +0200
+
+    white text home menu
+
+commit 6cbe9344647da23f880dc2ad174b2642f2e8baee
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 22:56:41 2021 +0200
+
+    fix blue menu home
+
+commit acee42110218a0a93e626edad39398044bf247bc
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 22:54:31 2021 +0200
+
+    menu blue
+
+commit 21596e0a960246fc2accee97d7c57195977480fb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 22:51:23 2021 +0200
+
+    iglogo white home
+
+commit 9159eea199842e74c6f2b2ecaea17a3fc148b471
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 22:49:36 2021 +0200
+
+    menu home white
+
+commit 1aec05c440d252984d8eeea50e6fcd2a3e1ffa46
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 22:47:18 2021 +0200
+
+    zIndexes menus
+
+commit 56f831074aa3c02cf98312dc9cb7279f3e3feeaf
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 22:35:06 2021 +0200
+
+    update js for openclose menu
+
+commit b09d52ff4797d25f706d504a17c4a16b87202a15
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 22:14:40 2021 +0200
+
+    fix openclose menu
+
+commit eae8f5c2139edab638f511930ca8c1c0f01fac1b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 21:59:21 2021 +0200
+
+    hide menu
+
+commit 71b67d9e510e212be68c82c063647c0877894337
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 21:29:24 2021 +0200
+
+    creation scriptjs
+
+commit cdab48858422ce7da9c62c791aa4511e120aac6d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Sep 2 21:10:56 2021 +0200
+
+    fullmenu
+
+commit 1ffe7db1c1cbaa5978682fd05853e69b4f834373
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 23:36:52 2021 +0200
+
+    white menu issu
+
+commit ca084b9d1063abf9e5a27a78ad26e24d078bfc63
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 22:58:47 2021 +0200
+
+    fixes borders
+
+commit bd288dd71dedc26421940d6e883420c0e13b4f62
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 22:55:40 2021 +0200
+
+    fadeInDown none
+
+commit 1c9715dc402408bf4d9810ec302f1b02c847ee49
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 22:53:05 2021 +0200
+
+    borders
+
+commit fd1accde332d596bb6937cf0d69587b15f60a767
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 21:47:49 2021 +0200
+
+    igLogo black
+
+commit 39cf96b60b55ce73e97f8cb4cc3c7ab4ef36f7f2
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 21:44:49 2021 +0200
+
+    font issues
+
+commit c1dfefe2e9dc2f36950bffb5b3d102e70ee11505
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 21:06:39 2021 +0200
+
+    all black
+
+commit 854567ed506ca026bac2a8c85094931a84c225fb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 21:06:01 2021 +0200
+
+    a not bold
+
+commit 7e8ea7166695a8a49bacdb830f9d7e6c26f0836c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 21:02:37 2021 +0200
+
+    width menu
+
+commit cff46958db5ed6e5155c8004ea3500f73bc2869f
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 20:59:37 2021 +0200
+
+    padding container
+
+commit 0978ed1668a109ec98921ddcba4c9a370544d03c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Wed Sep 1 20:57:49 2021 +0200
+
+    font style menu media and docu
+
+commit a54b5b62c1211bc1494059ea5303f893f33dfd60
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Aug 31 23:01:45 2021 +0200
+
+    issue row header
+
+commit e7b59ecc29959e01febdcfcfdfe090428b54232b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Aug 31 21:19:21 2021 +0200
+
+    img issue
+
+commit c0b1ef6ea363444aabfd3d0b54b497bbc869323b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Aug 31 21:16:41 2021 +0200
+
+    logo ig issue
+
+commit ffd10283ec6006cf0bfa7d49953d6d245825f627
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 20:25:50 2021 +0200
+
+    change iglogo
+
+commit 3018e36894de08236b20c3c19da516eb7d205003
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 18:11:13 2021 +0200
+
+    image fix
+
+commit 8956883180049e45553eb9a40070aa0fda725355
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 17:56:16 2021 +0200
+
+    image issue
+
+commit 65ac56fbaf60ffc3b06af8777213c40359c8deaf
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 17:43:15 2021 +0200
+
+    img cover
+
+commit 3bba3e105d9270a1dc2f9f36ce04536a7dfb0c4c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 17:43:01 2021 +0200
+
+    image cover home
+
+commit de5b37c47c05b7aa44f4857c076c56c41b094578
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 17:05:41 2021 +0200
+
+    fixes on menu for the homepage
+
+commit ef8c3420fb1caa55865aaa92d986043702929a33
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 16:49:04 2021 +0200
+
+    fix small menu
+
+commit 9957f8b79fb2820599ce4421103657a1111712a2
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 16:45:54 2021 +0200
+
+    fix menu small window
+
+commit 8d2bad81852fcd8a903059c3b44e1d5104637304
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 16:33:59 2021 +0200
+
+    hide mobile menu
+
+commit c7bc7839273d951442e30d8e1c1291c6082099b9
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 16:21:38 2021 +0200
+
+    fix iglogo
+
+commit fe3832bff9c8be68a68d45dfc5b819fd15ea62a3
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 16:08:23 2021 +0200
+
+    fixes menu
+
+commit 12da1ee97dc82551d129b0136fb0c7d2be1f422c
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 16:02:25 2021 +0200
+
+    fixes menu
+
+commit ca39bc1f86fc692e9d540cb33214d9a5874a9f1d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 15:33:05 2021 +0200
+
+    fix menu padding
+
+commit 7a8f75332feeaa3f944e032ec5db63b7138ebf36
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 15:23:08 2021 +0200
+
+    white menu
+
+commit cd8b2c9c15d18da57e1b4f8c9efe7c0c41e62448
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 15:15:17 2021 +0200
+
+    new css for homepage
+
+commit d65291800ca1cec84ab8aaa873fd0c442ddaf455
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 15:07:44 2021 +0200
+
+    title center
+
+commit 381979a0f877c10bc4f4659561bf24eff7fe4bdf
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 13:01:29 2021 +0200
+
+    iglogo on right
+
+commit 96343e4fee37c3daad1d36add7ef2f8d0b09d809
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 12:53:08 2021 +0200
+
+    fixed menu
+
+commit 3b0a3c8408dc0a0a9f58713a433f6749ecffa618
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 12:51:44 2021 +0200
+
+    fixed sticky menu
+
+commit 5bc65bb1b4f3f66e53558ff8af0fd342e71592f4
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 12:49:49 2021 +0200
+
+    no sticky menu
+
+commit 8311d0b22447b45f2e327b4dd5966dd1a79d154b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 12:33:43 2021 +0200
+
+    fixed ig logo
+
+commit 43240e5cb5233fcab072626504e560a0bbbf85b7
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 11:15:36 2021 +0200
+
+    second nav display none
+
+commit f7dda47aaffda89f64c75bc4d3a8e928155022ad
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 10:43:00 2021 +0200
+
+    menu title update
+
+commit 178168eefb798ffa3cb1b339cb77e494549f1e5b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Mon Aug 30 10:16:18 2021 +0200
+
+    fixed navbar
+
+commit 0c4eb68222b5f8cabfe64b23b9e1b42920999d02
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Aug 27 18:06:13 2021 +0200
+
+    unblue
+
+commit 5c3ad4caf078f77e828dfe9f6c5acacbf5d8e27e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Aug 27 12:15:22 2021 +0200
+
+    Update README.md
+
+commit b867053deaaf45f7614ab754c641539303fe0c65
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Aug 27 12:03:40 2021 +0200
+
+    Test cotsen site update
+
+commit 3384a059eee68001b3c24fbbd79e27e1db946683
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Aug 26 21:02:28 2021 +0200
+
+    test blue
+
+commit 7c30a41f8e472f43c999aee1ee01b0647419b01f
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Aug 26 19:35:16 2021 +0200
+
+    ksjdhfsd
+
+commit 20d613477d6b04a78cea0c2101ca9941d7b45ced
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Aug 26 19:11:17 2021 +0200
+
+    Update style.css
+
+commit da63f11fbe9ced419e8c68a551a5f278f443dd51
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Thu Aug 26 19:05:10 2021 +0200
+
+    first changes display none
+
+commit d547c1d57a2e627810b2a5ae70751481ca410829
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Aug 24 19:08:25 2021 +0200
+
+    reset
+
+commit fd101c748b73f4041bb27b0f92d2a8416d876424
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Aug 24 19:01:47 2021 +0200
+
+    reset
+
+commit 93632f9ddfd6b87bf477beaadb7f64bdb218df4e
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Tue Aug 3 13:16:13 2021 +0200
+
+    test
+
+commit 82187b2e2705c371ac50b0bd8627263452eff03f
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 18:27:59 2021 +0200
+
+    hack test
+
+commit 7f2634102789e15082b23bbe94596fe7f8862420
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 18:21:32 2021 +0200
+
+    change test
+
+commit eebe0e42a8384e186a7becfc431416f3e119cd35
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 18:17:48 2021 +0200
+
+    added index for testing
+
+commit 6b4546f4b2a566e157f3845c84b7fe0a99083324
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 18:16:50 2021 +0200
+
+    change for pages to work
+
+commit 366e2e465d6f3bd16b6e5e7c2e962f78a04481ab
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 18:15:34 2021 +0200
+
+    test css global
+
+commit 3a39cc984493dacc92b8223bef20b920ded98f67
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 16:46:00 2021 +0200
+
+    Setup ngrok and scss
+
+commit e8a11a6a203ee2fdc4eceee1801c5cda1c0f23eb
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 16:07:34 2021 +0200
+
+    addgitignore
+
+commit 0c103b41f1e7750ef024ee0be0489b15646e469b
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 16:01:04 2021 +0200
+
+    first commit
+
+commit 12da7d3dd99146e0207bb842ccc36fd40f9429af
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 16:00:49 2021 +0200
+
+    first commit
+
+commit c8a383fadeb5d38b62002190c3b3ee3742dde43d
+Author: pierryjaquilla <pierry_2808@hotmail.com>
+Date:   Fri Jul 30 16:00:04 2021 +0200
+
+    first commit

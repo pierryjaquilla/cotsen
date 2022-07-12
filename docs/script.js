@@ -14,6 +14,8 @@ if (document.location.pathname == "/") {
 
 console.log("Tibor: Script without cache loaded");
 
+
+
 window.onload = function () {
   console.log("Tibor: Window onload happened");
 
@@ -28,6 +30,8 @@ window.onload = function () {
   changeTemplate1();
   // getSetCurrentTab();
   makeStickyPossible();
+
+  
 };
 
 function setupIntersectionObserver() {
@@ -169,7 +173,8 @@ function menuOpenCloses() {
   var full = document.getElementsByClassName("fullMenu");
   // console.log(menuButton);
   // console.log(full);
-  menuButton.addEventListener("mousedown", function () {
+
+  const toggleMenu = () => {
     if (full[0].classList.contains("hideMenu")) {
       full[0].classList.remove("hideMenu");
     } else {
@@ -179,6 +184,10 @@ function menuOpenCloses() {
       jQuery(".headerWhite").addClass("close");
       jQuery(".mainMenu").addClass("close");
     }
+  }
+
+  menuButton.addEventListener("mousedown", function () {
+    toggleMenu();
   });
   jQuery(".menuHamburger").on("mousedown", function () {
     if (full[0].classList.contains("hideMenu")) {
@@ -195,6 +204,27 @@ function menuOpenCloses() {
   jQuery(".fullMenu span").on("mousedown", function () {
     full[0].classList.remove("hideMenu");
   });
+
+  // check if on the homepage
+  if (document.URL.includes("homepage-content")) {
+
+    jQuery("video").on("mousedown", function () {
+      toggleMenu();
+      if (full[0].classList.contains("hideMenu")) {
+        full[0].classList.remove("hideMenu");
+      } 
+    });
+
+    window.onwheel = function (e) {
+      toggleMenu();
+      if (full[0].classList.contains("hideMenu")) {
+        full[0].classList.remove("hideMenu");
+      } 
+    }
+
+  }
+
+  
 }
 
 function openLibrary() {
