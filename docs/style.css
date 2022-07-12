@@ -951,3 +951,8 @@ a {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .mainMenu .pos-four div {
+    background-color: black;
+  }
+}
