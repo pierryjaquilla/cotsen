@@ -115,4 +115,8 @@ body {
     .mainMenu .pos-four div {
       background-color: white;
     }
+
+    .container.mainMenu {
+      top: 80px;
+    }
   }
